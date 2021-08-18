@@ -25,6 +25,7 @@
 	
 	 <modules>
 	 	<module>ShopmeBackEnd</module>
+	 	<module>ShopmeFrontEnd</module>
 	 </modules>
 	
 	
