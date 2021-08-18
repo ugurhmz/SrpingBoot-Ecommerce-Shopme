@@ -245,3 +245,99 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY Activator 1 0 2021-08-18 19:05:48.533
 !MESSAGE Has main method computation for project 'ShopmeWebParent'
+
+!ENTRY Activator 1 0 2021-08-18 19:10:58.240
+!MESSAGE Has main method computation for project 'ShopmeWebParent'
+
+!ENTRY Activator 1 0 2021-08-18 19:10:58.253
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 19:10:59.035
+!MESSAGE Has main method computation for project 'ShopmeWebParent'
+
+!ENTRY Activator 1 0 2021-08-18 19:10:59.040
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 19:10:59.044
+!MESSAGE Has main method computation for project 'ShopmeWebParent'
+
+!ENTRY Activator 1 0 2021-08-18 19:11:09.315
+!MESSAGE Has main method computation for project 'ShopmeWebParent'
+
+!ENTRY Activator 1 0 2021-08-18 19:11:09.324
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 19:11:09.880
+!MESSAGE Has main method computation for project 'ShopmeWebParent'
+
+!ENTRY Activator 1 0 2021-08-18 19:11:09.889
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY org.eclipse.ui 2 2 2021-08-18 19:11:39.664
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2021-08-18 19:12:39.128
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 19:15:23.756
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 19:15:24.896
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 19:15:28.709
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 19:15:28.992
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 19:15:29.069
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 19:15:29.534
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 19:15:39.173
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 19:15:39.474
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 19:15:39.628
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 19:15:39.793
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 19:15:40.046
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 19:15:40.546
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 19:15:40.704
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 19:15:40.863
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 19:15:41.760
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 19:15:45.321
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 19:15:47.842
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 19:15:54.127
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 19:15:54.133
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 19:15:55.493
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 19:17:18.841
+!MESSAGE Has main method computation for project 'ShopmeCommon'

@@ -11,6 +11,11 @@
 	<groupId>com.ugurhmz</groupId>
 	<artifactId>ShopmeWebParent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
+	<!-- Added -->
+		<packaging>pom</packaging>
+	<!--  -->
+	
 	<name>ShopmeWebParent</name>
 	<description>Parent Web Project</description>
 	<properties>
