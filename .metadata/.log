@@ -44,3 +44,168 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY Activator 1 0 2021-08-18 18:12:02.248
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:12:06.782
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:12:07.247
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:12:07.550
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:12:09.225
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:12:10.065
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:13:54.031
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:13:54.346
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:13:54.632
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:13:54.907
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:14:00.506
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:14:00.749
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:14:00.981
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:14:01.116
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:14:01.255
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:14:01.408
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:14:01.828
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:14:01.967
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:14:02.126
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:14:02.293
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:14:02.459
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:14:02.743
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:14:02.934
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:14:03.474
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:14:07.566
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:14:29.957
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-18 18:15:11.163
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-18 18:15:11.179
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1c8892c4[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-18 18:15:11.220
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-18 18:15:11.520
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-18 18:15:21.639
+!MESSAGE Boot LS startup time from start to initialized: 10404ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-18 18:15:21.995
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LbFiOjLQisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-18 18:15:22.057
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-18 18:15:22.080
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-18 18:15:22.084
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-18 18:15:22.087
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-18 18:15:22.199
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LbFiOjLQ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-18 18:15:22.230
+!MESSAGE classpath=77 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-18 18:15:22.238
+!MESSAGE buffering callback sts4.classpath.LbFiOjLQ ShopmeCommon false 77
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-18 18:15:22.242
+!MESSAGE executing callback sts4.classpath.LbFiOjLQ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-18 18:15:23.405
+!MESSAGE executing callback sts4.classpath.LbFiOjLQ SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-18 18:16:03.916
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-18 18:16:04.045
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LbFiOjLQ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-18 18:16:04.049
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.LbFiOjLQ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-18 18:16:04.054
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-18 18:16:04.069
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LbFiOjLQ => OK
+
+!ENTRY Activator 1 0 2021-08-18 18:16:04.487
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:16:34.909
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:16:35.473
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:18:28.205
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:18:28.225
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:18:30.815
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:18:30.856
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:18:32.418
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-18 18:18:32.422
+!MESSAGE Has main method computation for project 'ShopmeCommon'
