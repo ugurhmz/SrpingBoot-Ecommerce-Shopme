@@ -55,14 +55,14 @@ public class User {
 	
 	
 
-	public User(String firstName, String lastName, String email, String password, String photos, boolean enabled) {
+	public User(String firstName, String lastName, String email, String password) {
 		
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.email = email;
 		this.password = password;
-		this.photos = photos;
-		this.enabled = enabled;
+		
+		
 	}
 	
 	
@@ -137,6 +137,22 @@ public class User {
 	public void setEnabled(boolean enabled) {
 		this.enabled = enabled;
 	}
+	
+	public Set<Role> getRoles() {
+		return roles;
+	}
+
+
+	public void setRoles(Set<Role> roles) {
+		this.roles = roles;
+	}
+
+	
+	// addRole
+	public void addRole(Role role) {
+		this.roles.add(role);
+	}
+	
 	
 	
 	// toString

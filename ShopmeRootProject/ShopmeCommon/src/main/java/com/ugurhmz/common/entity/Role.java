@@ -5,6 +5,7 @@ import java.util.Objects;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -12,7 +13,7 @@ import javax.persistence.Table;
 @Table(name="Roles")
 public class Role {
 
-	@Id @GeneratedValue
+	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	
 	@Column(length=50, nullable = false, unique = true)
@@ -22,23 +23,29 @@ public class Role {
 	private String description;
 	
 	
+
+	
+	
+	
 	// CONSTRUCTOR
+	public Role() {
+		
+	}
+	
 	public Role(Integer id) {
 		this.id = id;
 	}
 	
-	
 	public Role(String name) {
+		
 		this.name = name;
 	}
-	
-	
-	
-	public Role(Integer id, String name, String description) {
+
+	public Role(String name, String description) {
+		
 		this.name = name;
 		this.description = description;
 	}
-	
 	
 	// GETTE & SETTER
 	public Integer getId() {
@@ -84,7 +91,7 @@ public class Role {
 
 	@Override
 	public String toString() {
-		return "Role [id=" + id + ", name=" + name + ", description=" + description + "]";
+		return  name;
 	}
 	
 	
