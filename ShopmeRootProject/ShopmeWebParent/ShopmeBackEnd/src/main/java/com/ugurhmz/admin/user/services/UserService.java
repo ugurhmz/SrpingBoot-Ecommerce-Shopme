@@ -5,6 +5,7 @@ import java.util.List;
 import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import com.ugurhmz.admin.user.repositories.RoleRepository;
@@ -25,6 +26,11 @@ public class UserService {
 	@Autowired
 	private RoleRepository roleRepository;
 	
+	@Autowired
+	private PasswordEncoder passwordEncoder;
+	
+	
+	
 	//LIST ALL USERS
 	public List<User> listAllusers(){
 		return (List<User>) userRepository.findAll();	
@@ -35,6 +41,37 @@ public class UserService {
 	public List<Role> listAllRoles() {
 		
 		return (List<Role>) roleRepository.findAll();
+	}
+	
+	
+	// CREATE & UPDATE
+	public User save(User user) {
+		boolean isUpdatingUser = (user.getId() != null);
+		
+		if(isUpdatingUser) {
+			User existingUser = userRepository.findById(user.getId()).get();
+			
+			if(user.getPassword().isEmpty()) {
+				user.setPassword(existingUser.getPassword());
+				
+			} else {
+				encodePassword(user);
+			}
+			
+		}
+		else {
+			encodePassword(user);
+		}
+		
+		return userRepository.save(user);
+	}
+	
+
+	//password Encode
+	private void encodePassword(User user) {
+		String encodedPassword = passwordEncoder.encode(user.getPassword());
+		user.setPassword(encodedPassword);
+		
 	}
 	
 	
