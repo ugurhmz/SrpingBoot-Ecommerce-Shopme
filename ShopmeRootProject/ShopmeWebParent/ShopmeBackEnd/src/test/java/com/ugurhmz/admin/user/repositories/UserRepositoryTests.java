@@ -65,6 +65,15 @@ public class UserRepositoryTests {
 	}
 	
 	
+	// geet user findById
+	@Test
+	public void testUserFindId() {
+		User userNamHa = userRepository.findById(1).get(); 
+		System.out.println(userNamHa);
+		
+		assertThat(userNamHa.getId()).isNotNull();
+	}
+	
 }
 
 
