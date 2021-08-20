@@ -7263,3 +7263,318 @@ Caused by: java.lang.ClassNotFoundException: javax.activation.DataSource cannot 
 
 !ENTRY Activator 1 0 2021-08-20 17:22:33.405
 !MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:27:22.108
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:27:22.111
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:27:22.116
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:27:22.205
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:27:22.208
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:27:22.585
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:27:22.589
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:27:22.593
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:27:22.597
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:27:22.663
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:27:22.678
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:28:09.840
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:28:09.844
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:28:09.849
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:28:09.854
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:28:09.950
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:28:09.981
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:39:31.159
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:39:31.170
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:39:31.173
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:39:31.311
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:39:31.328
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:39:32.267
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:39:32.270
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:39:32.274
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:39:32.277
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:39:32.366
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:39:32.369
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY org.eclipse.jface 2 0 2021-08-20 17:42:07.974
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-20 17:42:07.974
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@24aaf4e4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5ee0fe43,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-20 17:47:27.826
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-08-20 17:48:27.566
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:48:27.571
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:48:27.574
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:48:28.488
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:48:28.563
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:48:28.567
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:48:29.122
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:48:29.132
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:48:29.136
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:48:29.224
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:48:29.241
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:48:29.303
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:48:49.330
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:48:49.336
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:48:49.343
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:48:50.011
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:48:50.035
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:48:50.159
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:49:22.984
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:49:23.000
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:49:23.004
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:49:23.661
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:49:23.668
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:49:23.777
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:49:31.258
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:49:31.267
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:49:31.276
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:49:31.923
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:49:31.929
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:49:32.003
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:50:07.770
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:50:07.780
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:50:07.789
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:50:08.418
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:50:08.430
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:50:08.453
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:51:55.574
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:51:55.582
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:51:55.587
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:51:56.115
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:51:56.216
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:51:56.221
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:53:05.907
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:53:05.911
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:53:05.916
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:53:05.924
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:53:06.094
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:53:06.127
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:53:06.138
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:54:15.896
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:54:15.901
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:54:15.906
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:54:16.865
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:54:16.870
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:54:16.874
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:54:16.964
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-20 17:54:17.773
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-08-20 17:54:33.207
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:54:33.220
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:54:33.228
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:54:33.931
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:54:34.023
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:54:34.028
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'

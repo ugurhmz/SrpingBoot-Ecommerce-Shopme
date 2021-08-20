@@ -9,12 +9,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.ugurhmz.admin.FileUploadUtil;
+import com.ugurhmz.admin.user.services.UserNotFoundException;
 import com.ugurhmz.admin.user.services.UserService;
 import com.ugurhmz.common.entity.Role;
 import com.ugurhmz.common.entity.User;
@@ -86,6 +88,23 @@ public class UserController {
 		return "redirect:/users";
 	}
 	
+	
+	
+	
+	// DELETE USER
+	@GetMapping("/users/delete/{id}")
+	public String userDelete(@PathVariable("id") Integer id, Model model, RedirectAttributes redirectAttributes) {
+		try {
+			userService.delete(id);
+			redirectAttributes.addFlashAttribute("message","The USER ID : "+id+" has been deleted successfully.");
+			
+			
+		} catch(UserNotFoundException e) {
+			redirectAttributes.addFlashAttribute("message",e.getMessage());
+		}
+		
+		return "redirect:/users";
+	}
 	
 	
 }
