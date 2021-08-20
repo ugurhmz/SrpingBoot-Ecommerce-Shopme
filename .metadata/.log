@@ -7578,3 +7578,434 @@ java.lang.InterruptedException
 
 !ENTRY Activator 1 0 2021-08-20 17:54:34.028
 !MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:58:35.135
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:58:35.138
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:58:35.142
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:58:35.146
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:58:35.274
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:58:35.278
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:58:35.377
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:58:35.381
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:58:35.387
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:58:55.874
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:58:55.879
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:58:55.888
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:58:58.138
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:58:58.146
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:58:58.155
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:59:04.026
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:59:04.034
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:59:04.041
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-08-20 17:59:07.942
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.completion.LSIncompleteCompletionProposal.getAdditionalProposalInfo(LSIncompleteCompletionProposal.java:308)
+	at org.eclipse.lsp4e.operations.completion.LSIncompleteCompletionProposal.getAdditionalProposalInfo(LSIncompleteCompletionProposal.java:1)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-08-20 17:59:08.020
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.completion.LSIncompleteCompletionProposal.getAdditionalProposalInfo(LSIncompleteCompletionProposal.java:308)
+	at org.eclipse.lsp4e.operations.completion.LSIncompleteCompletionProposal.getAdditionalProposalInfo(LSIncompleteCompletionProposal.java:1)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-08-20 17:59:10.562
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.completion.LSIncompleteCompletionProposal.getAdditionalProposalInfo(LSIncompleteCompletionProposal.java:308)
+	at org.eclipse.lsp4e.operations.completion.LSIncompleteCompletionProposal.getAdditionalProposalInfo(LSIncompleteCompletionProposal.java:1)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-08-20 17:59:10.640
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.completion.LSIncompleteCompletionProposal.getAdditionalProposalInfo(LSIncompleteCompletionProposal.java:308)
+	at org.eclipse.lsp4e.operations.completion.LSIncompleteCompletionProposal.getAdditionalProposalInfo(LSIncompleteCompletionProposal.java:1)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY Activator 1 0 2021-08-20 17:59:15.021
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:59:15.027
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:59:15.032
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:59:24.769
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:59:24.773
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:59:24.777
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:59:26.182
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:59:26.194
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:59:26.202
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:59:29.541
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:59:29.549
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:59:29.559
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:59:31.468
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:59:31.478
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:59:31.488
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:59:34.177
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:59:34.185
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:59:34.193
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:59:45.767
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:59:45.773
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:59:45.778
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:59:46.731
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 17:59:46.735
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 17:59:46.739
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:00:50.155
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:00:50.160
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:00:50.164
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 18:00:50.170
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 18:00:50.263
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:00:50.266
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:00:50.370
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:00:50.376
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:00:50.380
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 18:00:50.457
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:01:28.554
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:01:28.558
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 18:01:28.562
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:01:28.566
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 18:01:28.674
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:01:28.686
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:01:28.795
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 18:01:28.823
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:01:28.827
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:01:45.016
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:01:45.020
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 18:01:45.025
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:01:53.137
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:01:53.185
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 18:01:53.190
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:01:56.615
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 18:01:56.619
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:01:56.623
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:30:05.743
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:30:05.752
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 18:30:05.758
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:30:10.272
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:30:10.277
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 18:30:10.282
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:30:58.306
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 18:30:58.312
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:30:58.317
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:30:59.066
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:30:59.070
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 18:30:59.074
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:31:01.574
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:31:01.581
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 18:31:01.587
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:31:02.800
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:31:02.808
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 18:31:02.816
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:31:05.927
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:31:05.931
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 18:31:05.935
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:32:30.297
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:32:30.301
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 18:32:30.305
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:32:34.069
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:32:34.075
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 18:32:34.082
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:32:56.888
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:32:56.892
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 18:32:56.897
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:33:00.251
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:33:00.259
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 18:33:00.265
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:33:39.782
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 18:33:39.786
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:33:39.790
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:33:39.801
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 18:33:39.900
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:33:39.936
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:33:40.164
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:33:40.168
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 18:33:40.173
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:33:40.182
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 18:33:40.248
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:33:40.252
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:37:30.518
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:37:30.522
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 18:37:30.527
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:37:30.641
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:37:30.649
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:37:30.776
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:37:30.780
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 18:37:30.784
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:42:06.513
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:42:06.526
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 18:42:06.531
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:42:06.535
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-20 18:42:06.629
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-20 18:42:06.633
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
