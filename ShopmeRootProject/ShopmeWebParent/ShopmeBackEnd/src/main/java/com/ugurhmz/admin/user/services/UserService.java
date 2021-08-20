@@ -111,6 +111,12 @@ public class UserService {
 	}
 	
 	
+	//User status update
+	public void userStatusUpdate(Integer id, boolean enabled) {
+		userRepository.updateEnableStatus(id, enabled);
+	}
+	
+	
 	
 }
 

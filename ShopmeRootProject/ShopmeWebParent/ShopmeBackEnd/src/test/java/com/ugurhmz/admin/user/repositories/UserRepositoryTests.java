@@ -84,6 +84,7 @@ public class UserRepositoryTests {
 	}
 	
 	
+	
 	// delete user test
 	@Test
 	public void testDeleteUser() {
@@ -91,6 +92,29 @@ public class UserRepositoryTests {
 		userRepository.deleteById(userId);
 	}
 	
+	
+	
+	// update user  Test
+	@Test
+	public void testUpdateUser() {
+		User namH = userRepository.findById(1).get();
+		namH.setEnabled(true);
+		namH.setFirstName("Nam H ");
+		
+		userRepository.save(namH);
+	}
+	
+	
+	
+	
+	// User enabled/disabled status test
+	@Test
+	public void testStatus() {
+		
+		Integer id = 1;
+		//userRepository.updateEnableStatus(id, false);
+		userRepository.updateEnableStatus(id, false);
+	}
 	
 	
 }
