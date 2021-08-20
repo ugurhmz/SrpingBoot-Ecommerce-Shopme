@@ -8,7 +8,7 @@
 	
 <link rel="stylesheet"  type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" />
 <link rel="stylesheet" type="text/css"  th:href="@{/fontawesome/all.css}"/>
-
+<link rel="stylesheet" type="text/css" th:href="@{/style.css}" />
 
 
 <script type="text/javascript" th:src="@{/webjars/jquery/jquery.min.js}"></script>
@@ -167,12 +167,12 @@
 						<td>[[${user.lastName}]]</td>
 						<td>[[${user.roles}]]</td>
 						
-						<td>
-							<a  th:if="${user.enabled == true}" class="fas fa-check-circle icon-green"
+						<td style="font-size:1.4rem;">
+							<a  th:if="${user.enabled == true}" class="fas fa-check-circle icon-green "
 								th:href="@{'/users/' + ${user.id} + '/enabled/false'}" title="Disable This User">
 							</a>
 							
-							<a  th:if="${user.enabled == false}" class="fas fa-check-circle icon-gray"
+							<a  th:if="${user.enabled == false}" class="fas fa-circle icon-silver"
 								th:href="@{'/users/' + ${user.id} + '/enabled/true'}" title="Enable this User">
 							
 							

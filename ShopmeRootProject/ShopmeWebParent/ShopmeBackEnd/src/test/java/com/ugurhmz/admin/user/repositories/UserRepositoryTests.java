@@ -74,6 +74,18 @@ public class UserRepositoryTests {
 		assertThat(userNamHa.getId()).isNotNull();
 	}
 	
+	
+	// Email test
+	@Test
+	public void testUserByEmail() {
+		String email = "craxx67@gmail.com";
+		
+		assertThat(userRepository.getByUserEmail(email)).isNotNull();
+	}
+	
+	
+	
+	
 }
 
 

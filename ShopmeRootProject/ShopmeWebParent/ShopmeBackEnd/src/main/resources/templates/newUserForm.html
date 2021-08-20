@@ -227,9 +227,12 @@
 								    
 								   <div class="form-group col-md-8">
 								   <input type="hidden" th:field="*{photos}"/>
+								   
 								    <input type="file"  accept="image/png, image/jpeg" name="imageInput" class="form-control-file w-50" id="fileImage" />
-  									<img id="thumbnail"  alt="Default Photo"
-  										  class="img-fluid"/>
+  									
+  									<img id="thumbnail"  alt="Default Photo" class="img-fluid"
+  										 th:src="@{${user.photosImagePath}}"
+  									/>
   								 </div>
 							  </fieldset>
 							   
@@ -302,14 +305,95 @@
 	
 		$(document).ready(function () {
 			
-				// Cancel Button Click  -> Redirect in /users
-				$("#cancelBtn").on("click", function () {
-					window.location = "[[@{/users}]]";
-					
-				});
+			// Cancel Button Click  -> Redirect in /users
 			
+			$("#cancelBtn").on("click", function () {
+				window.location = "[[@{/users}]]";
+				
+			});
+				
+			
+			
+			// FILE UPLOAD
+			$("#fileImage").change(function () {
+				fileSize = this.files[0].size;
+				
+				if(fileSize > 1048576 ){	// 1024 x 1024 = 1048576
+					this.setCustomValidity("Image must be less than 1 MB!!");
+					this.reportValidity();
+				} 
+				else {
+						this.setCustomValidity("");
+						
+							$('#thumbnail').width(150); // Units are assumed to be pixels
+							$('#thumbnail').height(180);
+							$('#thumbnail').css('object-fit','cover');
+						
+						
+						showImageThumbnail(this);
+				}
+				
+			});
 		});
 	
+		// FILE UPLOAD
+		function showImageThumbnail(fileInput) {
+		var file = fileInput.files[0];
+		var reader = new FileReader();
+		reader.onload = function(e) {
+			$("#thumbnail").attr("src",e.target.result);
+		}
+		
+		reader.readAsDataURL(file);
+	}
+	
+		
+	// AJAX isEmailUnique
+	function checkEmailUnique(form) {
+		url = "[[@{/users/check-email-user}]]"; // RestController'de @PostMapping'teki url'yi al.
+		userEmail = $("#email").val();
+		userId = $("#id").val();
+		csrfValue = $("input[name='_csrf']").val();
+		params = {
+				id : userId,
+				email : userEmail,
+				_csrf : csrfValue
+		};
+		
+		$.post(url, params, function (response) {
+			
+			if( response == "User successfully added."){
+				form.submit();
+				
+			} else if( response == "This email is already USE !!"){
+				showModalMessage(userEmail+" is already USE !!")
+				
+			} else {
+				
+			}
+			
+		}).fail( function () {
+			showModalMessage("Error","Could not connect to the server");
+		});
+		
+		return false;
+	}
+	
+		
+		
+		
+		
+	// SHOW MODAL MESSAGE FOR ->  EMAIL IS UNIQUE
+	function showModalMessage(title,message){
+		$("#modalTitle").text(title);
+		$("#modalBody").text(message);
+		$("#modalDialog").modal();
+	}
+		
+		
+		
+		
+		
 	</script>
 
 	

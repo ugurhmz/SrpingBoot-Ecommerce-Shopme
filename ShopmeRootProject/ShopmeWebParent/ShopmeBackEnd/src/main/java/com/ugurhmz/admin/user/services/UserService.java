@@ -77,6 +77,26 @@ public class UserService {
 	
 	
 	
+	//Email is Unique ?
+	public boolean isEmailUnique(Integer id, String email) {
+		User userEmail = userRepository.getByUserEmail(email);
+		
+		if(userEmail == null) return true;
+		
+		boolean isCreatingNew = (id == null);
+		
+		if(isCreatingNew) {
+			if(userEmail != null) return false;
+			
+		} else {
+			if(userEmail.getId() != id) {
+				return false;
+			}
+		}
+		
+		return true;
+	}
+	
 	
 	
 }

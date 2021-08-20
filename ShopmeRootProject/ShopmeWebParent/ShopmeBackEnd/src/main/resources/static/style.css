@@ -1,5 +1,5 @@
 *.icon-white { color : white;}
-.icon-green { color : green;}
+.icon-green { color : green; font-weight:bolder;}
 *.icon-silver { color : silver;}
-*.icon-gray { color : gray;}
+*.icon-gray { color : gray; }
 *.icon-red { color : red;}
