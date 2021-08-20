@@ -127,6 +127,41 @@ public class UserController {
 	
 	
 	
+	
+	// GET UPDATE USER
+	@GetMapping("/users/edit/{id}")
+	public String getUpdateUser(
+			@PathVariable("id") Integer id,
+			Model model,
+			RedirectAttributes redirectAttributes) 
+	
+	{
+		
+		try {
+			User user = userService.getUserWithId(id);
+			List<Role> listRoles = userService.listAllRoles();
+			
+			model.addAttribute("user",user);
+			model.addAttribute("pageTitle","Update User : "+id);
+			model.addAttribute("roles",listRoles);
+			
+			return "newUserForm";
+			
+		} catch(UserNotFoundException e) {
+			redirectAttributes.addFlashAttribute("message",e.getMessage());
+			return "redirect:/users";
+		}
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
 
 

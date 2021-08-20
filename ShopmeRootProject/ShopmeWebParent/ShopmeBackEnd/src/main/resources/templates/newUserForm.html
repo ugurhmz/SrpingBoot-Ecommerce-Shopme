@@ -44,6 +44,7 @@
 	    position: relative;
 	    top: -45px;
 	    left: -80px;
+	    
     }
     
     .createForm {
@@ -230,7 +231,7 @@
 								   
 								    <input type="file"  accept="image/png, image/jpeg" name="imageInput" class="form-control-file w-50" id="fileImage" />
   									
-  									<img id="thumbnail"  alt="Default Photo" class="img-fluid"
+  									<img id="thumbnail"   alt="Default Photo" class="img-fluid myPhoto"
   										 th:src="@{${user.photosImagePath}}"
   									/>
   								 </div>
@@ -305,8 +306,12 @@
 	
 		$(document).ready(function () {
 			
-			// Cancel Button Click  -> Redirect in /users
+			$('.myPhoto').css("height", 180); // Units are assumed to be pixels
+			$('.myPhoto').css("width", 160);
+			$('.myPhoto').css('object-fit','cover');
 			
+			
+			// Cancel Button Click  -> Redirect in /users
 			$("#cancelBtn").on("click", function () {
 				window.location = "[[@{/users}]]";
 				
@@ -321,17 +326,22 @@
 				if(fileSize > 1048576 ){	// 1024 x 1024 = 1048576
 					this.setCustomValidity("Image must be less than 1 MB!!");
 					this.reportValidity();
+					
+				
+					
 				} 
 				else {
 						this.setCustomValidity("");
-						
-							$('#thumbnail').width(150); // Units are assumed to be pixels
-							$('#thumbnail').height(180);
-							$('#thumbnail').css('object-fit','cover');
+							
+						$('.myPhoto').css("height", 180); // Units are assumed to be pixels
+						$('.myPhoto').css("width", 160);
+						$('.myPhoto').css('object-fit','cover');
 						
 						
 						showImageThumbnail(this);
 				}
+				
+			
 				
 			});
 		});

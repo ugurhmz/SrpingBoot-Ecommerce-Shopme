@@ -1,6 +1,7 @@
 package com.ugurhmz.admin.user.services;
 
 import java.util.List;
+import java.util.NoSuchElementException;
 
 import javax.transaction.Transactional;
 
@@ -66,6 +67,8 @@ public class UserService {
 		return userRepository.save(user);
 	}
 	
+	
+	
 
 	//password Encode
 	private void encodePassword(User user) {
@@ -97,6 +100,8 @@ public class UserService {
 		return true;
 	}
 
+	
+	
 
 	//Delete User
 	public void delete(Integer id) throws UserNotFoundException {
@@ -111,11 +116,27 @@ public class UserService {
 	}
 	
 	
+	
+	
 	//User status update
 	public void userStatusUpdate(Integer id, boolean enabled) {
 		userRepository.updateEnableStatus(id, enabled);
 	}
 	
+	
+	
+	
+	// Get user Id
+	public User getUserWithId(Integer id) throws UserNotFoundException {
+		
+		try {
+			return userRepository.findById(id).get();
+			
+		} catch(NoSuchElementException e) {
+			throw new UserNotFoundException("Could not find any user with ID : "+id);
+		}
+		
+	}
 	
 	
 }
