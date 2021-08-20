@@ -8,6 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import com.ugurhmz.admin.user.services.UserService;
+import com.ugurhmz.common.entity.Role;
 import com.ugurhmz.common.entity.User;
 
 
@@ -27,6 +28,23 @@ public class UserController {
 		model.addAttribute("allUsers",listUsers);
 	
 		return "users";
+	}
+	
+	
+	// GET NEW USER
+	@GetMapping("/users/new")
+	public String getNewUser(Model model) {
+		List<Role> listRoles = userService.listAllRoles();
+		User user = new User();
+		
+		user.setEnabled(true);
+		
+		model.addAttribute("user",user);
+		model.addAttribute("roles",listRoles);
+		model.addAttribute("pageTitle","Create New User");
+		
+		
+		return "newUserForm";
 	}
 	
 }

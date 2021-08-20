@@ -9,9 +9,5 @@ import com.ugurhmz.common.entity.User;
 public interface UserRepository extends CrudRepository<User, Integer> {
 
 	
-	
-	
-	
-	
 	public Long countById(Integer id);
 }

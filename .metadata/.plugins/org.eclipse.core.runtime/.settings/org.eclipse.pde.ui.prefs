@@ -1,3 +1,6 @@
+AbstractTextEditor.Color.Background.SystemDefault=true
+AbstractTextEditor.Color.Foreground.SystemDefault=true
+AbstractTextEditor.Color.SelectionForeground.SystemDefault=true
 eclipse.preferences.version=1
 editor.color.default=171,178,191
 editor.color.externalized_string=152,195,121

@@ -19,5 +19,7 @@ SEMI_COLON=\#ABB2BF | null | null | null | null | null
 STRING=\#98C379 | null | null | null | null | null
 UNIVERSAL=\#ABB2BF | null | null | null | null | null
 URI=\#98C379 | null | null | null | null | null
+css_content_assist_default_page_sort_order=org.eclipse.wst.css.ui.proposalCategory.css\u0000org.eclipse.wst.css.ui.proposalCategory.cssTemplates\u0000
+css_content_assist_own_page_sort_order=org.eclipse.wst.css.ui.proposalCategory.cssTemplates\u0000org.eclipse.wst.css.ui.proposalCategory.css\u0000
 eclipse.preferences.version=1
 overriddenByCSS=,ATMARK_RULE,ATTRIBUTE_DELIM,ATTRIBUTE_NAME,ATTRIBUTE_OPERATOR,ATTRIBUTE_VALUE,CLASS,COLON,COMBINATOR,COMMENT,CURLY_BRACE,ID,MEDIA,NORMAL,PROPERTY_NAME,PROPERTY_VALUE,PSEUDO,SELECTOR,SEMI_COLON,STRING,UNIVERSAL,URI,

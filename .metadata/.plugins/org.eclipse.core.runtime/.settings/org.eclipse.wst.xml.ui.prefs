@@ -19,3 +19,5 @@ tagAttributeValue=\#98C379 | null | null | null | null | null
 tagBorder=\#E06C75 | null | null | null | null | null
 tagName=\#E06C75 | null | null | null | null | null
 xmlContent=\#ABB2BF | null | null | null | null | null
+xml_content_assist_default_page_sort_order=org.eclipse.wst.xml.ui.proposalCategory.xmlTags\u0000org.eclipse.wst.xml.ui.proposalCategory.xmlTemplates\u0000
+xml_content_assist_own_page_sort_order=org.eclipse.wst.xml.ui.proposalCategory.xmlTemplates\u0000org.eclipse.wst.xml.ui.proposalCategory.xmlTags\u0000
