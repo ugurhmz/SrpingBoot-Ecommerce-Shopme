@@ -67,8 +67,8 @@ public class UserService {
 	
 	
 	
-	// AFTER SORTING  -> PAGINATION
-	public Page<User> listByPage(int pageNum, String sortField, String sortDir){
+	//  PAGINATION
+	public Page<User> listByPage(int pageNum, String sortField, String sortDir, String keyword){
 		
 		// for sort
 		Sort sort = Sort.by(sortField);
@@ -77,6 +77,14 @@ public class UserService {
 		
 		// for paginate
 		Pageable pageable = PageRequest.of(pageNum - 1, USER_PER_PAGE, sort);
+		
+		
+		
+		//search
+		if(keyword != null) {
+			return userRepository.findAll(keyword, pageable);
+		}
+	
 		return userRepository.findAll(pageable);
 	}
 	

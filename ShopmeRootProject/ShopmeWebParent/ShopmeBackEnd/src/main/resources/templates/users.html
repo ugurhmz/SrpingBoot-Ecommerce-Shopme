@@ -300,48 +300,48 @@
 					<!-- first page -->
 					  	<li th:class="${ currentPage > 1 ? 'page-item' : 'page-item disabled' }">
 					      <a class="page-link bg-dark text-white" 
-					     	 th:href="@{'/users/page/1?sortField=' + ${sortField} + '&sortDir=' + ${sortDir}}" 
+					     	 th:href="@{'/users/page/1?sortField=' + ${sortField} + '&sortDir=' + ${sortDir} + ${ keyword != null ? '&keyword=' + keyword : '' }}" 
 					      tabindex="-1" aria-disabled="true">
 					      	First
 					      </a>				
 					    </li>
-							  
-							      	
-						
-						<!--  previous -->
-						<li th:class="${ currentPage > 1 ? 'page-item' : 'page-item disabled'}">
-							<a class="page-link" th:href="@{'/users/page/' + ${currentPage -1 } + '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir}}" tabindex="-1" aria-disabled="true">
-								<span>Previous</span>
-							</a>
-						</li>
-						
-						
-						<!-- pagination / all pages -->
+					  
+					  
+				   <!-- previous -->
+					    <li th:class="${ currentPage > 1 ? 'page-item' : 'page-item disabled' }">
+					    
+					      <a class="page-link"
+					      		 th:href="@{'/users/page/' + ${currentPage - 1} + '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir} + ${ keyword != null ? '&keyword=' + keyword : '' }}" 
+					      		tabindex="-1" aria-disabled="true">
+					      		<span>Previous</span>
+					      		</a>
+					    </li>
+					    
+					    
+				    <!-- for each thymeleaf, pagination -->
 					    <li th:class="${ currentPage != i ? 'page-item' : 'page-item active' }"
 					    	th:each="i : ${#numbers.sequence(1, totalPages)}">
 					    	
-						    <a class="page-link" th:href="@{'/users/page/' + ${i} +  '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir}  }">
-						    		[[${i}]]
-						    </a>
+								    <a class="page-link" th:href="@{'/users/page/' + ${i} +  '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir} + ${ keyword != null ? '&keyword=' + keyword : '' }}">
+								    		[[${i}]]
+								    </a>
 					    </li>
-							  
-							    
-					    <!-- next -->
+					  
+					    
+				    <!-- next -->
 					    <li th:class="${ currentPage < totalPages ? 'page-item' : 'page-item disabled' }">
 					    
-					      <a class="page-link" th:href="@{'/users/page/' + ${currentPage + 1 } + '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir}}">
+					      <a class="page-link" th:href="@{'/users/page/' + ${currentPage + 1 } + '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir} + ${ keyword != null ? '&keyword=' + keyword : '' }}">
 					      	<span>
 					      		Next
 					      	</span>
 					      </a>
 					    </li>
-							    
-				     	<!-- last page -->
+					    
+				     <!-- last page -->
 					     <li th:class="${ currentPage < totalPages ? 'page-item' : 'page-item disabled' }">
-					      <a class="page-link bg-dark text-white" 
-					      	th:href="@{'/users/page/'+${totalPages} + '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir}}">Last</a>
+					      <a class="page-link bg-dark text-white" th:href="@{'/users/page/'+${totalPages} + '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir} + ${ keyword != null ? '&keyword=' + keyword : '' }}">Last</a>
 					    </li>
-						    
 						    
 					</ul>
 				</nav>
@@ -396,6 +396,7 @@
 	
 	
 	<script type="text/javascript">
+	
 	// Delete Button CLICK and Are you sure want to Delete ? 
 	$(document).ready(function () {
 		$(".linkDelete").on("click", function (e) {
@@ -413,6 +414,12 @@
 		});
 	});
 		
+	
+	// Clear Filter onClick
+	function clearFilter(){
+		window.location="[[@{/users}]]";
+	}
+	
 	
 	</script>
 	
