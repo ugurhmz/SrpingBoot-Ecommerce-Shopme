@@ -1,6 +1,6 @@
 package com.ugurhmz.common.entity;
 
-import java.beans.Transient;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -13,6 +13,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 
 @Entity
 @Table(name="Users")
@@ -171,6 +172,17 @@ public class User {
 		return "/user-photos/" + this.id + "/" + this.photos;
 	}
 
+	
+	// full name
+	@Transient
+	public String getFullName() {
+		return firstName + " "+ lastName;
+	}
+	/*Veritabanında belirlediğimiz kolonun oluşturulmasını istemiyorsak 
+	 * Transient anotasyonunu kullanıyoruz.
+	 * Tablo içerisine kolon olarak eklenmesini istiyorsak Basic anotasyonu ile bunu belirtebiliriz*/
+	
+	
 	
 	
 }

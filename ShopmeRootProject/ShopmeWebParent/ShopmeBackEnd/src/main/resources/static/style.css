@@ -18,3 +18,68 @@
 	font-weight:bolder;
 	font-size:1.3rem;
 }
+
+
+
+/*small screen*/
+@media screen and ( max-width : 768px) {
+	
+	div.full-details {
+		display:none;
+	}
+	
+	div.less-details {
+		display:block;
+		margin-top:8rem;
+		padding:2px 8px;
+		
+		
+	}
+	
+	.less-details .myborder {
+		border:1px solid black;
+		padding:2px 8px;
+		border-radius : 5px;
+		box-shadow: 1px 0px 13px 7px rgba(0,0,0,0.75);
+		-webkit-box-shadow: 1px 0px 13px 7px rgba(0,0,0,0.75);
+		-moz-box-shadow: 1px 0px 13px 7px rgba(0,0,0,0.75);
+	}
+}
+
+
+
+/*medium screen*/
+@media screen and ( min-width : 768px) and (max-width : 1024px)  {
+	
+	div.full-details {
+		display:block;
+	}
+	
+	div.less-details {
+		display:none;
+	}
+	
+}
+
+
+
+/*large screen*/
+@media screen and ( min-width : 1024px ) {
+	div.less-details {
+		display:none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
