@@ -110,15 +110,24 @@ public class UserController {
 		} else {
 			
 			if(user.getPhotos().isEmpty())  user.setPhotos(null);
-			
 			userService.save(user);
 		}
 		
 		//Message when redirect after
 		redirectAttributes.addFlashAttribute("message", "User has been saved  successfully");
+		// return "redirect:/users"
 		
-		return "redirect:/users";
+		
+		return getRedirectURLtoAffectedUser(user);
 	}
+
+	
+	// getRedirectURLtoAffectedUser
+	private String getRedirectURLtoAffectedUser(User user) {
+		String firstPartOfEmail = user.getEmail().split("@")[0];
+		return "redirect:/users/page/1?sortField=id&sortDir=asc&keyword=" + firstPartOfEmail;
+	}
+	
 	
 	
 	

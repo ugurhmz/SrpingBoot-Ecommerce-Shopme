@@ -3,3 +3,18 @@
 *.icon-silver { color : silver;}
 *.icon-gray { color : gray; }
 *.icon-red { color : red;}
+
+
+.paginationBg {
+	background-color:#555555;
+	color:white;
+	
+}
+
+.page-item.active .paginationBg {
+	background-color:#000000;
+	color:#FFD43B;
+	border:none;
+	font-weight:bolder;
+	font-size:1.3rem;
+}

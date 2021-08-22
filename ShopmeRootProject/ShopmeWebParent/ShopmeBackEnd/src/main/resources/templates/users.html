@@ -161,18 +161,15 @@
 			<table class="table table-bordered table-striped table-hover text-center">
 				<thead class="thead-dark">
 					<tr>
-						<th scope="col">
-							USER ID 
-						</th>
+						<th th:replace="fragments :: column_link('id', 'USER ID')"></th>
 						
 						<th scope="col">
 							PHOTOS
 						</th>
 						
-						<th scope="col">
-							EMAIL
-						</th>
+						<th th:replace="fragments :: column_link('email','E-mail')"></th>
 						
+						<!--  before fragments 
 						<th scope="col">
 						
 							<a 	th:if="${ sortField != 'firstName' }"
@@ -188,22 +185,18 @@
 							<span 	th:if="${sortField == 'firstName'}"
 									th:class="${sortDir == 'asc' ? 'fas fa-sort-up' : 'fas fa-sort-down' }"	>
 							      			
-							</span>
-							
-							
+							</span>	
 						</th>
 						
-						<th scope="col">
-							LAST NAME 
-						</th>
+						-->
+						<th th:replace="fragments :: column_link('firstName','First Name')"></th>
 						
+						<th th:replace="fragments :: column_link('lastName','Last Name')"></th>
 						<th scope="col">
 							ROLES 
 						</th>
+						<th th:replace="fragments :: column_link('enabled','Enabled')">
 						
-						<th scope="col">
-							ENABLE 
-						</th>
 						
 						<th scope="col">
 							OPERATIONS 
@@ -214,11 +207,17 @@
 				
 				<tbody>
 					<tr th:each="user : ${allUsers}">
+					
+					
+				
 						<th>[[${user.id}]]</th>
 						  <td>
 					      	<span th:if="${user.photos == null}"><i class="fas fa-portrait fa-3x icon-gray"></i></span>
 					      	<img th:if="${user.photos != null}" th:src="@{${user.photosImagePath}}" style="width:100px;height:110px;" />
 						</td>
+						
+						
+						
 						<td>[[${user.email}]]</td>
 						<td>[[${user.firstName}]]</td>
 						<td>[[${user.lastName}]]</td>
@@ -286,66 +285,77 @@
 			    	</span>
 			</div> 
 			
-			<div th:if="${totalPages} > 1">
-				<nav aria-label="mypagination">
-					<ul class="pagination justify-content-center">
-					
-						 <!-- before sorting first page 
-						  	<li th:class="${ currentPage > 1 ? 'page-item' : 'page-item disabled' }">
-						      <a class="page-link bg-dark text-white" th:href="@{/users/page/1}" tabindex="-1" aria-disabled="true">
-						      	First
-						      </a>				
-						    </li>-->
-						    
-					<!-- first page -->
-					  	<li th:class="${ currentPage > 1 ? 'page-item' : 'page-item disabled' }">
-					      <a class="page-link bg-dark text-white" 
-					     	 th:href="@{'/users/page/1?sortField=' + ${sortField} + '&sortDir=' + ${sortDir} + ${ keyword != null ? '&keyword=' + keyword : '' }}" 
-					      tabindex="-1" aria-disabled="true">
-					      	First
-					      </a>				
-					    </li>
-					  
-					  
-				   <!-- previous -->
-					    <li th:class="${ currentPage > 1 ? 'page-item' : 'page-item disabled' }">
-					    
-					      <a class="page-link"
-					      		 th:href="@{'/users/page/' + ${currentPage - 1} + '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir} + ${ keyword != null ? '&keyword=' + keyword : '' }}" 
-					      		tabindex="-1" aria-disabled="true">
-					      		<span>Previous</span>
-					      		</a>
-					    </li>
-					    
-					    
-				    <!-- for each thymeleaf, pagination -->
-					    <li th:class="${ currentPage != i ? 'page-item' : 'page-item active' }"
-					    	th:each="i : ${#numbers.sequence(1, totalPages)}">
-					    	
-								    <a class="page-link" th:href="@{'/users/page/' + ${i} +  '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir} + ${ keyword != null ? '&keyword=' + keyword : '' }}">
-								    		[[${i}]]
-								    </a>
-					    </li>
-					  
-					    
-				    <!-- next -->
-					    <li th:class="${ currentPage < totalPages ? 'page-item' : 'page-item disabled' }">
-					    
-					      <a class="page-link" th:href="@{'/users/page/' + ${currentPage + 1 } + '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir} + ${ keyword != null ? '&keyword=' + keyword : '' }}">
-					      	<span>
-					      		Next
-					      	</span>
-					      </a>
-					    </li>
-					    
-				     <!-- last page -->
-					     <li th:class="${ currentPage < totalPages ? 'page-item' : 'page-item disabled' }">
-					      <a class="page-link bg-dark text-white" th:href="@{'/users/page/'+${totalPages} + '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir} + ${ keyword != null ? '&keyword=' + keyword : '' }}">Last</a>
-					    </li>
-						    
-					</ul>
-				</nav>
-			</div>
+			<div th:if="${totalPages > 1}">
+							<nav aria-label="mypagination" >
+							  <ul class="pagination justify-content-center">
+							 
+							   <!-- first page -->
+							  	<li th:class="${ currentPage > 1 ? 'page-item' : 'page-item  disabled' }">
+							     	<!-- before fragments 
+									      <a class="page-link bg-dark text-white" 
+									     	 th:href="@{'/users/page/1?sortField=' + ${sortField} + '&sortDir=' + ${sortDir} + ${ keyword != null ? '&keyword=' + keyword : '' }}" 
+									      tabindex="-1" aria-disabled="true">
+									      	First
+									      </a>	
+							      	-->
+							      	<a class="bg-dark" th:replace="fragments :: page_link(1, 'First')"></a>    			
+							    </li>
+							  
+							  
+							   <!-- previous -->
+							    <li th:class="${ currentPage > 1 ? 'page-item' : 'page-item disabled' }">
+							    
+							    	<!-- before fragments 
+								      <a class="page-link"
+								      		 th:href="@{'/users/page/' + ${currentPage - 1} + '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir} + ${ keyword != null ? '&keyword=' + keyword : '' }}" 
+								      		tabindex="-1" aria-disabled="true"><span><i class="fas fa-angle-left"></i></span>
+								      </a>
+							      -->
+							      <a th:replace="fragments :: page_link( ${currentPage -1 }, 'Previous')"></a>    
+							      
+							    </li>
+							    
+							    
+							    <!-- for each thymeleaf, pagination -->
+							    <li th:class="${ currentPage != i ? 'page-item' : 'page-item active' }"
+							    	th:each="i : ${#numbers.sequence(1, totalPages)}">
+							    	<!-- before fragments 
+										    <a class="page-link" th:href="@{'/users/page/' + ${i} +  '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir} + ${ keyword != null ? '&keyword=' + keyword : '' }}">
+										    		[[${i}]]
+										    </a>
+									 -->
+									 <a th:replace="fragments :: page_link( ${i}, ${i})"></a> 
+									 
+							    </li>
+							  
+							    
+							    <!-- next -->
+							    <li th:class="${ currentPage < totalPages ? 'page-item' : 'page-item disabled' }">
+							    
+							    <!--  before fragments  
+							      <a class="page-link" th:href="@{'/users/page/' + ${currentPage + 1 } + '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir} + ${ keyword != null ? '&keyword=' + keyword : '' }}">
+							      	<span>
+							      		<i class="fas fa-angle-right"></i>
+							      	</span>
+							      </a>
+							      -->
+							      
+							       <a th:replace="fragments :: page_link( ${currentPage + 1 }, 'Next')"></a> 
+							      
+							    </li>
+							    
+							     <!-- last page -->
+							     <li th:class="${ currentPage < totalPages ? 'page-item' : 'page-item disabled' }">
+							      <!--  before fragments  
+							     	 <a class="page-link bg-dark text-white" th:href="@{'/users/page/'+${totalPages} + '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir} + ${ keyword != null ? '&keyword=' + keyword : '' }}">Last</a>
+							     -->
+							     <a th:replace="fragments :: page_link( ${totalPages}, 'Last')"></a> 
+							    
+							    </li>
+							    
+							  </ul>
+							</nav>
+						</div>
 		
 	 <!-- /PAGINATION -->
 		
