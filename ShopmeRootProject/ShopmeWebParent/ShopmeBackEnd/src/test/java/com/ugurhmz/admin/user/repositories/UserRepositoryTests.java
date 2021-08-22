@@ -125,7 +125,7 @@ public class UserRepositoryTests {
 	}
 	
 	
-	// Pagination
+	// Pagination TEST
 	@Test
 	public void paginationUserList() {
 		int pageNumber = 0;
@@ -140,6 +140,32 @@ public class UserRepositoryTests {
 		
 		assertThat(userList.size()).isEqualTo(pageSize);
 	}
+	
+	
+	// search Input TEST
+	@Test
+	public void searchUserTest() {
+			String keyword = "bruce";
+			
+			int pageNumber = 0;
+			int pageSize = 4;
+			
+			
+			Pageable pageable= PageRequest.of(pageNumber, pageSize);
+			Page<User> page  = userRepository.findAll(keyword, pageable);		
+			
+			List<User> listUsers = page.getContent();
+			listUsers.forEach(user -> System.out.println(user));
+			
+			assertThat(listUsers.size()).isGreaterThan(0);
+			
+	}
+	
+	
+	
+	
+	
+	
 	
 	
 }

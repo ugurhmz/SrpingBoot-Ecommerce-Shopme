@@ -115,6 +115,32 @@
 			<a th:href="@{/users/new}" class="text-success">
 				Create New User <span><i class="fas fa-user-plus"></i></span>
 			</a>
+			
+			
+			<!-- SEARCH INPUT -->
+				<div style="float:right;" class="mb-2">
+					<form th:action="@{'/users/page/1'}" class="form-inline  my-2 my-lg-0">
+					
+						<input 	type="hidden"  name="sortField" th:value="${sortField}" />
+						<input  type="hidden" name="sortDir" th:value="${sortDir}" />
+						
+						<input 	class="form-control mr-sm-2" type="search" name="keyword" 
+								th:value="${keyword}" required placeholder="Search" aria-label="Search" />
+						
+						<button class="btn btn-outline-primary my-2 my-sm-0" type="submit">
+							Search . . . 
+						</button>
+						
+						<button class="btn btn-outline-dark ml-1" type="button" onClick="clearFilter()">
+							Clear						
+						</button>
+						
+						
+					</form>
+				</div>
+			
+			
+			<!--/SEARCH INPUT -->
 				
 		</div>
 		
