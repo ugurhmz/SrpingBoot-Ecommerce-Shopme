@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.apache.tomcat.util.http.fileupload.FileUpload;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.util.StringUtils;
@@ -31,14 +32,28 @@ public class UserController {
 	private UserService userService;
 	
 	
-	// GET ALL USER LIST
+	/*
+	// GET ALL USER LIST  - BEFORE PAGINATION
+	 
 	@GetMapping("/users")
 	public String listAllUsers(Model model) {
 		List<User> listUsers =   userService.listAllusers();
 		model.addAttribute("allUsers",listUsers);
 	
 		return "users";
+	}	*/
+	
+	
+	
+	// AFTER PAGINATION LIST USERS
+	@GetMapping("/users")
+	public String getFirstPage(Model model) {
+		
+		return listByPage(1, model);
 	}
+	
+	
+	
 	
 	
 	// GET NEW USER
@@ -56,6 +71,8 @@ public class UserController {
 		
 		return "newUserForm";
 	}
+	
+	
 	
 	// POST NEW USER
 	@PostMapping("/users/save")		//It'll be same in action  th:action="@{/users/save}
@@ -107,6 +124,8 @@ public class UserController {
 	}
 	
 	
+	
+	
 	// USER STATUS UPDATE
 	@GetMapping("/users/{id}/enabled/{status}")
 	public String userStatusUpdate(
@@ -153,6 +172,35 @@ public class UserController {
 		}
 		
 	}
+	
+	
+	// PAGINATION
+	@GetMapping("/users/page/{pageNum}")
+	public String listByPage(
+			@PathVariable(name="pageNum") int pageNum,Model model) 
+	{
+		Page<User> page = userService.listByPage(pageNum);
+		List<User> listUsers = page.getContent();
+		
+		long startCount = (pageNum - 1) * UserService.USER_PER_PAGE + 1;
+		long endCount = startCount  + UserService.USER_PER_PAGE -1 ;
+		
+		if(endCount > page.getTotalElements()) {
+			endCount = page.getTotalElements();
+		}
+		
+		model.addAttribute("currentPage", pageNum);
+		model.addAttribute("startCount", startCount);
+		model.addAttribute("endCount", endCount);
+		model.addAttribute("totalPages",page.getTotalPages());
+		model.addAttribute("totalElements",page.getTotalElements());
+		model.addAttribute("allUsers", listUsers);
+		
+		return "users";
+		
+	}
+	
+	
 	
 	
 	

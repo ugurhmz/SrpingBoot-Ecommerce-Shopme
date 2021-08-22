@@ -54,7 +54,7 @@ public class UserService {
 	
 	
 	// PAGINATON
-	public Page<User> listByPage(int pageNum, String sortField,  String sortDir, String keyword){
+	public Page<User> listByPage(int pageNum){
 		
 		//paginate
 		Pageable pageable = PageRequest.of(pageNum - 1, USER_PER_PAGE);
