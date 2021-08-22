@@ -6,6 +6,10 @@ import java.util.NoSuchElementException;
 import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -19,7 +23,10 @@ import com.ugurhmz.common.entity.User;
 @Service
 @Transactional
 public class UserService {
-
+	
+	public static final int USER_PER_PAGE = 4;
+	
+	
 	@Autowired
 	private UserRepository userRepository;
 	
@@ -29,6 +36,7 @@ public class UserService {
 	
 	@Autowired
 	private PasswordEncoder passwordEncoder;
+	
 	
 	
 	
@@ -43,6 +51,22 @@ public class UserService {
 		
 		return (List<Role>) roleRepository.findAll();
 	}
+	
+	
+	// PAGINATON
+	public Page<User> listByPage(int pageNum, String sortField,  String sortDir, String keyword){
+		
+		//paginate
+		Pageable pageable = PageRequest.of(pageNum - 1, USER_PER_PAGE);
+		return userRepository.findAll(pageable);
+	}
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	// CREATE & UPDATE

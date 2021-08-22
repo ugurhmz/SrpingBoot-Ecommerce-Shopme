@@ -3,13 +3,14 @@ package com.ugurhmz.admin.user.repositories;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import com.ugurhmz.common.entity.User;
 
 @Repository
-public interface UserRepository extends CrudRepository<User, Integer> {
+public interface UserRepository extends PagingAndSortingRepository<User, Integer> {
 
 	
 	public Long countById(Integer id);
@@ -20,6 +21,7 @@ public interface UserRepository extends CrudRepository<User, Integer> {
 	public User getByUserEmail(@Param("email") String email);
 
 
+	// status enabled/disabled
 	@Query("UPDATE User u SET  u.enabled = ?2 WHERE u.id=?1")
 	@Modifying
 	public void updateEnableStatus(Integer id, boolean enabled);
