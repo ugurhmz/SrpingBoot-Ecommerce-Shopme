@@ -148,7 +148,23 @@
 						</th>
 						
 						<th scope="col">
-							FIRST NAME 
+						
+							<a 	th:if="${ sortField != 'firstName' }"
+								th:href="@{'/users/page/' + ${currentPage} + '?sortField=firstName&sortDir=' + ${sortDir}}" class="text-white">
+								First Name
+							</a>
+							
+							<a 	th:if="${ sortField == 'firstName' }"
+								th:href="@{'/users/page/' + ${currentPage} + '?sortField=firstName&sortDir=' + ${reverseSortDir}}" class="text-white">
+								First Name
+							</a>
+							
+							<span 	th:if="${sortField == 'firstName'}"
+									th:class="${sortDir == 'asc' ? 'fas fa-sort-up' : 'fas fa-sort-down' }"	>
+							      			
+							</span>
+							
+							
 						</th>
 						
 						<th scope="col">
@@ -181,6 +197,7 @@
 						<td>[[${user.firstName}]]</td>
 						<td>[[${user.lastName}]]</td>
 						<td>[[${user.roles}]]</td>
+						
 						
 						<td style="font-size:1.4rem;">
 							<a  th:if="${user.enabled == true}" class="fas fa-check-circle icon-green "
@@ -229,59 +246,74 @@
 		</div>
 		
 	 <!--  PAGINATION -->
-			<div class="text-center my-3" th:if="${totalElements} > 0">
-					<span>
-					Showing Users # [[${startCount}]] to [[${endCount}]]  of [[${totalElements}]]
-					</span>
-			</div>
+			<div th:if="${totalElements} > 0" class="text-center my-3" >
 			
-			<div class="text-center my-3" th:unless="${totalElements} > 0">
 				<span>
-					No users found!
-				</span>
-			</div>
+			    Showing users #	[[${startCount}]] to [[${endCount}]]  of [[${totalElements}]]
+		    	</span>
+			</div> 
 			
+						
+			<div  th:if = "${startCount > totalElements}" class="text-center m-2"  >
+					<span>
+				    	No users found!
+			    	</span>
+			</div> 
 			
-			<div th:if="${totalPages > 1}">
+			<div th:if="${totalPages} > 1">
 				<nav aria-label="mypagination">
 					<ul class="pagination justify-content-center">
 					
-						 <!-- first page -->
+						 <!-- before sorting first page 
 						  	<li th:class="${ currentPage > 1 ? 'page-item' : 'page-item disabled' }">
 						      <a class="page-link bg-dark text-white" th:href="@{/users/page/1}" tabindex="-1" aria-disabled="true">
 						      	First
 						      </a>				
-						    </li>
+						    </li>-->
+						    
+					<!-- first page -->
+					  	<li th:class="${ currentPage > 1 ? 'page-item' : 'page-item disabled' }">
+					      <a class="page-link bg-dark text-white" 
+					     	 th:href="@{'/users/page/1?sortField=' + ${sortField} + '&sortDir=' + ${sortDir}}" 
+					      tabindex="-1" aria-disabled="true">
+					      	First
+					      </a>				
+					    </li>
+							  
+							      	
 						
-						<!--  before page -->
+						<!--  previous -->
 						<li th:class="${ currentPage > 1 ? 'page-item' : 'page-item disabled'}">
-							<a class="page-link" th:href="@{'/users/page/' + ${currentPage -1 }}" tabindex="-1" aria-disabled="true">
-								<span>Before</span>
+							<a class="page-link" th:href="@{'/users/page/' + ${currentPage -1 } + '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir}}" tabindex="-1" aria-disabled="true">
+								<span>Previous</span>
 							</a>
 						</li>
 						
-						<!--  pagination / All pages -->
+						
+						<!-- pagination / all pages -->
 					    <li th:class="${ currentPage != i ? 'page-item' : 'page-item active' }"
 					    	th:each="i : ${#numbers.sequence(1, totalPages)}">
 					    	
-						    <a class="page-link" th:href="@{'/users/page/' + ${i}}">
+						    <a class="page-link" th:href="@{'/users/page/' + ${i} +  '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir}  }">
 						    		[[${i}]]
 						    </a>
 					    </li>
-					    
-					     <!-- next -->
+							  
+							    
+					    <!-- next -->
 					    <li th:class="${ currentPage < totalPages ? 'page-item' : 'page-item disabled' }">
 					    
-					      <a class="page-link" th:href="@{'/users/page/' + ${currentPage + 1 }}">
+					      <a class="page-link" th:href="@{'/users/page/' + ${currentPage + 1 } + '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir}}">
 					      	<span>
 					      		Next
 					      	</span>
 					      </a>
 					    </li>
-						    
-					     <!-- last page -->
+							    
+				     	<!-- last page -->
 					     <li th:class="${ currentPage < totalPages ? 'page-item' : 'page-item disabled' }">
-					      <a class="page-link bg-dark text-white" th:href="@{'/users/page/'+${totalPages}}">Last</a>
+					      <a class="page-link bg-dark text-white" 
+					      	th:href="@{'/users/page/'+${totalPages} + '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir}}">Last</a>
 					    </li>
 						    
 						    

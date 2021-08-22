@@ -6,6 +6,7 @@ import java.util.List;
 import org.apache.tomcat.util.http.fileupload.FileUpload;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
+import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.util.StringUtils;
@@ -45,12 +46,21 @@ public class UserController {
 	
 	
 	
-	// AFTER PAGINATION LIST USERS
+	/* AFTER PAGINATION LIST USERS  & BEFORE SORTING
 	@GetMapping("/users")
 	public String getFirstPage(Model model) {
 		
 		return listByPage(1, model);
 	}
+	*/
+	
+	
+	// AFTER PAGINATION & AFTER SORTING
+	@GetMapping("/users")
+	public String getFirstPage(Model model) {
+		return listByPage(1, model, "firstName","asc");
+	}
+	
 	
 	
 	
@@ -174,7 +184,8 @@ public class UserController {
 	}
 	
 	
-	// PAGINATION
+	/* BEFORE SORTING ->  PAGINATION
+	 * 
 	@GetMapping("/users/page/{pageNum}")
 	public String listByPage(
 			@PathVariable(name="pageNum") int pageNum,Model model) 
@@ -199,10 +210,49 @@ public class UserController {
 		return "users";
 		
 	}
+	*/
 	
 	
-	
-	
+	// AFTER SORTING -> PAGINATION
+	@GetMapping("/users/page/{pageNum}")
+	public String listByPage(
+			@PathVariable(name="pageNum") int pageNum,
+			Model model,
+			@Param("sortField") String sortField,
+			@Param("sortDir") String sortDir
+			
+			) 
+	{
+		System.out.println("SortField : "+ sortField);
+		System.out.println("SortDir : "+ sortDir);
+		
+		
+		Page<User> page = userService.listByPage(pageNum, sortField, sortDir);
+		List<User> listUsers = page.getContent();
+		
+		long startCount = (pageNum - 1) * UserService.USER_PER_PAGE + 1;
+		long endCount = startCount  + UserService.USER_PER_PAGE -1 ;
+		
+		if(endCount > page.getTotalElements()) {
+			endCount = page.getTotalElements();
+		}
+		
+		
+		String reverseSortDir = sortDir.equals("asc") ? "desc" : "asc";
+		
+		model.addAttribute("currentPage",pageNum);
+		model.addAttribute("startCount",startCount);
+		model.addAttribute("endCount",endCount);
+		model.addAttribute("totalPages",page.getTotalPages());
+		model.addAttribute("totalElements",page.getTotalElements());
+		model.addAttribute("allUsers",listUsers);
+		model.addAttribute("sortField",sortField);
+		model.addAttribute("sortDir",sortDir);
+		model.addAttribute("reverseSortDir",reverseSortDir);
+		
+		return "users";
+		
+	}
 	
 	
 	

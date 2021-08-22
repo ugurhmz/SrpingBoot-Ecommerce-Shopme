@@ -53,11 +53,30 @@ public class UserService {
 	}
 	
 	
-	// PAGINATON
+	
+	
+	/* BEFORE SORTING -> PAGINATON
+	 * 
 	public Page<User> listByPage(int pageNum){
 		
 		//paginate
 		Pageable pageable = PageRequest.of(pageNum - 1, USER_PER_PAGE);
+		return userRepository.findAll(pageable);
+	} */
+	
+	
+	
+	
+	// AFTER SORTING  -> PAGINATION
+	public Page<User> listByPage(int pageNum, String sortField, String sortDir){
+		
+		// for sort
+		Sort sort = Sort.by(sortField);
+		sort = sortDir.equals("asc") ? sort.ascending() : sort.descending();
+		
+		
+		// for paginate
+		Pageable pageable = PageRequest.of(pageNum - 1, USER_PER_PAGE, sort);
 		return userRepository.findAll(pageable);
 	}
 	
