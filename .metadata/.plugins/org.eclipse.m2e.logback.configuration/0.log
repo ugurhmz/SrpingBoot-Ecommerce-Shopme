@@ -3973,3 +3973,4 @@ Caused by: java.io.EOFException: input contained no data
 2021-08-22 19:54:24,283 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 24 resources
 2021-08-22 19:54:24,297 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-08-22 19:54:24,297 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-22 19:54:24,297 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\miyaw\Downloads\Compressed\ShopmeProjectEcommerce\ShopmeRootProject\ShopmeWebParent\ShopmeBackEnd\src\test\resources
