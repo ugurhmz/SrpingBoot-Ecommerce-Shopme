@@ -3,6 +3,8 @@ package com.ugurhmz.admin.user.controller;
 import java.io.IOException;
 import java.util.List;
 
+import javax.servlet.http.HttpServletResponse;
+
 import org.apache.tomcat.util.http.fileupload.FileUpload;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -18,6 +20,7 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.ugurhmz.admin.FileUploadUtil;
+import com.ugurhmz.admin.UserCsvExporter;
 import com.ugurhmz.admin.user.services.UserNotFoundException;
 import com.ugurhmz.admin.user.services.UserService;
 import com.ugurhmz.common.entity.Role;
@@ -57,7 +60,7 @@ public class UserController {
 	*/
 	
 	
-	// AFTER PAGINATION & AFTER SORTING & SEARCHING
+	// AFTER PAGINATION & SORTING & SEARCHING
 	@GetMapping("/users")
 	public String getFirstPage(Model model) {
 		
@@ -273,7 +276,13 @@ public class UserController {
 	
 	
 	
-	
+	// EXPORT CSV
+	@GetMapping("/users/export/csv")	
+	public void exportToCSV(HttpServletResponse response) throws IOException {
+		List<User> listUsers = userService.listAllusers();
+		UserCsvExporter exporter = new UserCsvExporter();
+		exporter.export(listUsers, response);
+	}
 	
 	
 	

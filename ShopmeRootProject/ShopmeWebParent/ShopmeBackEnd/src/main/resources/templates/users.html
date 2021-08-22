@@ -110,10 +110,14 @@
 	<div class="container-fluid">
 	
 		<div class="my-1">
-			<h1 class="text-center">User Manage System</h1>
+			<h1 class="text-center" > <a class="text-dark text-decoration-none" th:href="@{/users}">User Manage System</a></h1>
 			
 			<a th:href="@{/users/new}" class="text-success">
 				Create New User <span><i class="fas fa-user-plus"></i></span>
+			</a>
+			&nbsp;| &nbsp;
+			<a th:href="@{/users/export/csv}"> 
+				Export to CSV
 			</a>
 			
 			
