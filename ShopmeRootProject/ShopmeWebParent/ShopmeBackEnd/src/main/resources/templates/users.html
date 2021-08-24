@@ -47,7 +47,7 @@
 						
 					
 		 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			    <ul class="navbar-nav">
+			    <ul class="navbar-nav mr-auto ">
 			    
 			      <li class="nav-item">
 			        <a class="nav-link" th:href="@{/users}">Users</a>
@@ -165,14 +165,18 @@
 			<table class="table table-bordered table-striped table-hover text-center">
 				<thead class="thead-dark">
 					<tr>
-						<th th:replace="fragments :: column_link('id', 'USER ID')"></th>
+						<th class="hideable-column">
+							<th th:replace="fragments :: column_link('id', 'USER ID','tag')"/>
+						</th>
 						
 						<th scope="col">
 							PHOTOS
 						</th>
 						
-						<th th:replace="fragments :: column_link('email','E-mail')"></th>
-						
+						<th class="hideable-column">
+							<th th:replace="fragments :: column_link('email','E-mail','tag')" />
+							
+						</th>
 						<!--  before fragments 
 						<th scope="col">
 						
@@ -193,13 +197,13 @@
 						</th>
 						
 						-->
-						<th th:replace="fragments :: column_link('firstName','First Name')"></th>
+						<th th:replace="fragments :: column_link('firstName','First Name','none')"></th>
 						
-						<th th:replace="fragments :: column_link('lastName','Last Name')"></th>
+						<th th:replace="fragments :: column_link('lastName','Last Name','none')"></th>
 						<th scope="col">
 							ROLES 
 						</th>
-						<th th:replace="fragments :: column_link('enabled','Enabled')">
+						<th th:replace="fragments :: column_link('enabled','Enabled','none')">
 						
 						
 						<th scope="col">
@@ -214,7 +218,7 @@
 					
 					
 				
-						<th>[[${user.id}]]</th>
+						<th class="hideable-column">[[${user.id}]]</th>
 						  <td>
 					      	<span th:if="${user.photos == null}"><i class="fas fa-portrait fa-3x icon-gray"></i></span>
 					      	<img th:if="${user.photos != null}" th:src="@{${user.photosImagePath}}" style="width:100px;height:110px;" />
@@ -222,7 +226,7 @@
 						
 						
 						
-						<td>[[${user.email}]]</td>
+						<td class="hideable-column" >[[${user.email}]]</td>
 						<td>[[${user.firstName}]]</td>
 						<td>[[${user.lastName}]]</td>
 						<td>[[${user.roles}]]</td>

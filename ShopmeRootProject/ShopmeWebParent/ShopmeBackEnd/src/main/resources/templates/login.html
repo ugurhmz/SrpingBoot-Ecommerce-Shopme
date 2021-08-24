@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.tyhmeleaf.org">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minumum-scale=1.0">
+<title>Login Page</title>
+	
+<link rel="stylesheet"  type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" />
+<link rel="stylesheet" type="text/css" th:href="@{/webjars/font-awesome/5.15.1/css/all.css}"/>
+
+<style>
+	.navbar-dark .navbar-nav .nav-link {
+		
+			color:#FFD43B;
+			font-size:17px;
+		}
+		
+		.navbar-dark .navbar-nav .nav-link:hover {
+			color:#FAB005;
+			font-size:17px;
+		}
+		
+		body {
+			background-color:silver;
+		}
+
+</style>
+
+</head>
+<body>
+
+	
+	<div class="container-fluid text-center">
+			<div>
+				<img th:src="@{/images/ShopmeAdminBig.png}" />
+			</div>
+			
+			<form th:action="@{/login}" method="POST" style="max-width:350px; margin:0 auto;">
+				<div class="border border-secondary rounded  p-4 mt-4">
+					<p>Admin Control Panel <i class="fas fa-forward fa-2x offset-1"></i></p>
+					
+					<p>
+						<input type="text" name="email" required class="form-control" placeholder="E-mail" />
+					</p>
+					
+					 <p>
+					 	<input type="password" name="password" required class="form-control" placeholder="Password" />
+					 </p>
+					 
+					 <p>
+					 	<input type="submit" value="Login" class="btn btn-primary" />
+					 </p>
+					
+				</div>
+			</form>
+		
+	</div>
+	
+	<!-- FOOTER -->
+		<footer class="mt-4 text-center">
+				<p>Shopme Control Panel - Copyright &copy; Shopme</p>
+		</footer>
+	<!-- /FOOTER -->
+
+</body>
+</html>
