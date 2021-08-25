@@ -84,5 +84,14 @@ public class SecurityUserDetails implements UserDetails {
 	}
 
 	
+	
+	// FULL NAME
+	public String getFullname() {
+		return this.user.getFirstName() + " "+this.user.getLastName();
+	}
+	
+	
+	
+	
 
 }

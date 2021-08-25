@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.tyhmeleaf.org">
+<html 	xmlns:th="http://www.tyhmeleaf.org"
+		xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5"	
+>
 <head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -7,22 +9,12 @@
 <title>Home - Admin Control Panel</title>
 	
 <link rel="stylesheet"  type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" />
+<link rel="stylesheet" type="text/css" th:href="@{/webjars/font-awesome/5.15.1/css/all.css}"/>
+<link rel="stylesheet" type="text/css" th:href="@{/style.css}" />
 <script type="text/javascript" th:src="@{/webjars/jquery/jquery.min.js}"></script>
 <script type="text/javascript" th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
 
-<style>
-	.navbar-dark .navbar-nav .nav-link {
-		
-			color:#FFD43B;
-			font-size:17px;
-		}
-		
-		.navbar-dark .navbar-nav .nav-link:hover {
-			color:#FAB005;
-			font-size:17px;
-		}
 
-</style>
 
 </head>
 <body>
@@ -90,6 +82,22 @@
    				 </li>
 			     
 			     
+			     <li class="nav-item ml-3">
+			     	<span><i class="fas fa-user fa-2x icon-silver "></i></span>
+			     </li>
+			     
+			     
+			     <li class="nav-item dropdown">
+			     
+			     	<a  class="nav-link dropdown-toggle" data-toggle="dropdown" style="color:silver !important;" 
+			     		sec:authentication="principal.fullname">
+			     	</a>
+			     	<!-- dropdown -->
+			     	<div class="dropdown-menu">
+			     		<a class="dropdown-item " href="">Logout</a>
+			     	</div>
+			     	<!-- /dropdown -->
+			     </li>
 			      
 			    </ul>
 		  	</div>	
