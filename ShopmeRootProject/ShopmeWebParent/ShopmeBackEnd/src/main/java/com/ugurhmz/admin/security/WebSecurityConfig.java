@@ -27,7 +27,7 @@ public class WebSecurityConfig extends  WebSecurityConfigurerAdapter {
 	
 	// UserDetailsService
 	@Bean
-	public UserDetailsService userDetailService() {
+	public UserDetailsService userDetailsService() {
 		return new SecurityUserDetailsService();
 	}
 	
@@ -45,7 +45,7 @@ public class WebSecurityConfig extends  WebSecurityConfigurerAdapter {
 	public DaoAuthenticationProvider authenticationProvider() {
 		
 		DaoAuthenticationProvider authProvider = new DaoAuthenticationProvider();
-		authProvider.setUserDetailsService(userDetailService());
+		authProvider.setUserDetailsService(userDetailsService());
 		authProvider.setPasswordEncoder(passwordEncoder());
 		
 		return authProvider;
@@ -87,7 +87,11 @@ public class WebSecurityConfig extends  WebSecurityConfigurerAdapter {
 				.usernameParameter("email")
 				.defaultSuccessUrl("/", true)
 				.permitAll()
-			.and().logout().permitAll();
+			.and().logout().permitAll()
+			.and()
+				.rememberMe()
+					.key("AbcDefgHijKlmnoprs_123456789")
+					.tokenValiditySeconds(7 * 24 * 60 * 60);
 	}
 
 	
