@@ -93,5 +93,19 @@ public class SecurityUserDetails implements UserDetails {
 	
 	
 	
+	// Set firstName
+	public void setFirstName(String firstName) {
+		this.user.setFirstName(firstName);
+	}
+	
+	
+	// Set lastName
+	public void setLastName(String lastName) {
+		this.user.setLastName(lastName);
+	}
+	
+	
+	
+	
 
 }

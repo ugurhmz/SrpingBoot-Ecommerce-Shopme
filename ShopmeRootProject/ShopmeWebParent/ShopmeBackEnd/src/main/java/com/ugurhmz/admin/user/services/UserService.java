@@ -40,6 +40,7 @@ public class UserService {
 	
 	
 	
+	
 	//LIST ALL USERS
 	public List<User> listAllusers(){
 		return (List<User>) userRepository.findAll(Sort.by("firstName").ascending());	
@@ -186,6 +187,37 @@ public class UserService {
 		} catch(NoSuchElementException e) {
 			throw new UserNotFoundException("Could not find any user with ID : "+id);
 		}
+		
+	}
+	
+	
+	
+	// For AccountDetails
+	public User getByEmail(String email) {
+		return userRepository.getByUserEmail(email);
+	}
+	
+	
+	
+	// Account Update
+	public User accountUpdate(User userInForm) {
+		User userInDB =	userRepository.findById(userInForm.getId()).get();
+		
+		// password is not empty
+		if(!userInForm.getPassword().isEmpty()) {
+			userInDB.setPassword(userInForm.getPassword());
+			encodePassword(userInDB);
+		}
+		
+		// photos is not null
+		if(userInForm.getPhotos() != null) {
+			userInDB.setPhotos(userInForm.getPhotos());
+		}
+		
+		userInDB.setFirstName(userInForm.getFirstName());
+		userInDB.setLastName(userInForm.getLastName());
+		
+		return userRepository.save(userInDB);
 		
 	}
 	
