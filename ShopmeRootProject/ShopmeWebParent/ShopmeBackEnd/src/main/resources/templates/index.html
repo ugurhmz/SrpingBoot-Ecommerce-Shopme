@@ -19,6 +19,12 @@
 </head>
 <body>
 
+
+	<!--logout form -->
+		<form th:action="@{/logout}" method="post" th:hidden="true" name="logoutForm">
+			<input type="submit" />
+		</form>
+
 <!-- NAVBAR -->
 		<nav class="navbar navbar-expand-md bg-dark navbar-dark">
 			<a class="navbar-brand" th:href="@{/}">
@@ -31,7 +37,7 @@
 						
 					
 		 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			    <ul class="navbar-nav">
+			    <ul class="navbar-nav" style="flex-wrap:wrap;">
 			    
 			      <li class="nav-item">
 			        <a class="nav-link" th:href="@{/users}">Users</a>
@@ -94,7 +100,7 @@
 			     	</a>
 			     	<!-- dropdown -->
 			     	<div class="dropdown-menu">
-			     		<a class="dropdown-item " href="">Logout</a>
+			     		<a class="dropdown-item" id="logoutLink"  href="">Logout</a>
 			     	</div>
 			     	<!-- /dropdown -->
 			     </li>
@@ -105,19 +111,42 @@
 	<!-- /NAVBAR -->
 	
 
-	<div class="container-fluid">
+
 	
 		<div>
 			<h1 class="text-danger">Admin Control Panel..</h1>
 		</div>
-		
-	</div>
+
+
 	
 	<!-- FOOTER -->
 		<footer>
 				<p>Shopme Control Panel - Copyright &copy; Shopme</p>
 		</footer>
 	<!-- /FOOTER -->
+
+
+	<script type="text/javascript">
+	
+	
+		//LOGOUT jQuery
+		$(document).ready(function () {
+			$("#logoutLink").on("click", function(e) {
+				e.preventDefault();
+				document.logoutForm.submit();
+			})
+			
+		});
+		
+	</script>
+
+
+
+
+
+
+
+
 
 </body>
 </html>

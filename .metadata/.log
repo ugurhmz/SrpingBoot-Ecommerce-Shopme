@@ -1331,3 +1331,1858 @@ java.lang.InterruptedException
 
 !ENTRY org.eclipse.ui 2 2 2021-08-25 03:14:03.565
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2021-08-25 03:20:39.771
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:20:39.779
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:20:39.783
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:20:39.877
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:20:39.886
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:20:40.245
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:20:40.249
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:20:40.257
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:20:40.330
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:20:59.324
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:20:59.327
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:20:59.330
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:20:59.333
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:20:59.425
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:20:59.428
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:21:00.158
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:21:00.161
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:21:00.166
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:21:00.242
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:29.442
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:29.447
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:29.455
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:29.546
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:29.698
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:29.701
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:29.705
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:29.709
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:29.785
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:29.789
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:47.920
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:47.924
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:47.928
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:47.932
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:48.007
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:48.010
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:48.846
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:48.851
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:48.856
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:48.928
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:54.484
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:54.488
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:54.493
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:54.497
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:54.581
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:54.583
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:54.797
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:54.801
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:54.804
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:54.808
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:54.897
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:22:54.901
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:23:10.938
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:23:10.941
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:23:10.945
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:23:10.949
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:23:11.035
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:23:11.037
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:23:11.166
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:23:11.168
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:23:11.171
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:23:11.175
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:23:11.242
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:23:11.247
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:24:26.248
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:24:26.251
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:24:26.272
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:24:26.284
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:24:26.328
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:24:26.349
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:24:26.354
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:30:40.796
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:30:40.800
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:30:40.804
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:30:40.900
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:30:40.906
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:30:41.806
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:30:41.809
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:30:41.813
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:30:41.816
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:30:41.885
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:30:41.888
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:31:04.537
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:31:04.540
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:31:04.549
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:31:04.553
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:31:04.624
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:31:04.645
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:31:04.649
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:32:26.776
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:32:26.780
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:32:26.784
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:32:26.787
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:32:26.871
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:32:26.876
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:32:27.310
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:32:27.319
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:32:27.326
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:32:27.387
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:32:43.052
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:32:43.055
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:32:43.059
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:32:43.063
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:32:43.164
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:32:43.182
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:32:43.186
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:32:53.511
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:32:53.515
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:32:53.519
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:32:53.524
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:32:53.615
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:32:53.619
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:32:54.430
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:32:54.432
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:32:54.435
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:33:01.332
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:33:01.336
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:33:01.340
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:33:01.343
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:33:01.442
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:33:01.471
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:33:01.544
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:33:01.548
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:33:01.552
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:33:16.714
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:33:16.718
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:33:16.722
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:33:16.727
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:33:16.816
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:33:16.820
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:33:17.470
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:33:17.474
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:33:17.479
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:33:17.485
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:33:17.598
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:33:17.605
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:34:01.653
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:34:01.660
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:34:01.675
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:34:04.931
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:34:04.936
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:34:04.940
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:34:06.123
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:34:06.126
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:34:06.134
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:34:06.139
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:34:06.224
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:34:06.228
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:34:06.231
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:35:10.482
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:35:10.485
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:35:10.489
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:35:10.497
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:35:10.588
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:35:10.591
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:35:11.152
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:35:11.155
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:35:11.158
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:35:11.161
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:35:11.253
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:35:11.259
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:37:18.835
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:37:18.839
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:37:18.843
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:37:20.007
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:37:20.016
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:37:20.024
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:37:41.701
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:37:41.711
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:37:41.719
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:37:42.890
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:37:42.893
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:37:42.897
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:37:49.575
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:37:49.584
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:37:49.592
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:37:50.222
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:37:50.226
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:37:50.231
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:37:51.352
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:37:51.360
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:37:51.369
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:38:04.502
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:38:04.506
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:38:04.510
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:38:07.981
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:38:07.985
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:38:07.989
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:38:08.828
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:38:08.834
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:38:08.838
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:38:12.879
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:38:12.888
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:38:12.896
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:38:23.363
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:38:23.370
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:38:23.378
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:38:24.970
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:38:24.985
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:38:24.994
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:38:55.382
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:38:55.386
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:38:55.390
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:38:55.399
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:38:55.465
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:38:55.489
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:38:55.493
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-25 03:40:18.733
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.qjfAuPoy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-25 03:40:18.741
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.qjfAuPoy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-25 03:40:18.748
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-25 03:40:18.756
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.qjfAuPoy => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-25 03:40:20.885
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-25 03:40:20.900
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@10eddc8b[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-25 03:40:20.905
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-25 03:40:30.386
+!MESSAGE Boot LS startup time from start to initialized: 9476ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-25 03:40:30.706
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.tMpmXTgSisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-25 03:40:30.711
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-25 03:40:30.719
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-25 03:40:30.724
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-25 03:40:30.728
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-25 03:40:30.731
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.tMpmXTgS => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-25 03:40:31.416
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-25 03:40:31.435
+!MESSAGE buffering callback sts4.classpath.tMpmXTgS ShopmeBackEnd false 117
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-25 03:40:31.443
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-25 03:40:31.458
+!MESSAGE classpath=52 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-25 03:40:31.465
+!MESSAGE buffering callback sts4.classpath.tMpmXTgS ShopmeCommon false 52
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-25 03:40:31.469
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-25 03:40:31.484
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-25 03:40:31.492
+!MESSAGE buffering callback sts4.classpath.tMpmXTgS ShopmeFrontEnd false 116
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-25 03:40:31.496
+!MESSAGE executing callback sts4.classpath.tMpmXTgS 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-25 03:40:32.805
+!MESSAGE executing callback sts4.classpath.tMpmXTgS SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-25 03:40:46.718
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:40:46.725
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:40:46.731
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:40:47.407
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:40:47.635
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:40:47.725
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:40:47.729
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:40:47.733
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:40:47.765
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:40:47.809
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2021-08-25 03:46:11.126
+!MESSAGE error loading class class for org.eclipse.wst.html.HTML_DEFAULT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Plug-in "org.thymeleaf.extras.eclipse.contentassist" was unable to instantiate class "org.thymeleaf.extras.eclipse.contentassist.hover.InfoHoverComputer".
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:212)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:206)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.wst.sse.ui.internal.ExtendedConfigurationBuilder.createExtension(ExtendedConfigurationBuilder.java:107)
+	at org.eclipse.wst.sse.ui.internal.ExtendedConfigurationBuilder.createConfigurations(ExtendedConfigurationBuilder.java:152)
+	at org.eclipse.wst.sse.ui.internal.ExtendedConfigurationBuilder.getConfigurations(ExtendedConfigurationBuilder.java:222)
+	at org.eclipse.wst.sse.ui.internal.taginfo.BestMatchHover.createTextHoversList(BestMatchHover.java:81)
+	at org.eclipse.wst.sse.ui.internal.taginfo.BestMatchHover.getTextHovers(BestMatchHover.java:199)
+	at org.eclipse.wst.sse.ui.internal.taginfo.BestMatchHover.getHoverRegion(BestMatchHover.java:182)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:212)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:204)
+	... 39 more
+Caused by: java.lang.NoClassDefFoundError: org/thymeleaf/extras/eclipse/dialect/cache/DialectCache
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3229)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2335)
+	at org.codehaus.groovy.reflection.CachedClass$1.lambda$initValue$2(CachedClass.java:59)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:62)
+	at org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:54)
+	at org.codehaus.groovy.util.LazyReference.getLocked(LazyReference.java:50)
+	at org.codehaus.groovy.util.LazyReference.get(LazyReference.java:37)
+	at org.codehaus.groovy.reflection.CachedClass.getFields(CachedClass.java:255)
+	at groovy.lang.MetaClassImpl.addFields(MetaClassImpl.java:2500)
+	at groovy.lang.MetaClassImpl.inheritFields(MetaClassImpl.java:2495)
+	at groovy.lang.MetaClassImpl.setupProperties(MetaClassImpl.java:2381)
+	at groovy.lang.MetaClassImpl.addProperties(MetaClassImpl.java:3413)
+	at groovy.lang.MetaClassImpl.initialize(MetaClassImpl.java:3386)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:287)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:329)
+	at org.thymeleaf.extras.eclipse.contentassist.hover.InfoHoverComputer.$getStaticMetaClass(InfoHoverComputer.groovy)
+	at org.thymeleaf.extras.eclipse.contentassist.AbstractComputer.<init>(AbstractComputer.groovy)
+	at org.thymeleaf.extras.eclipse.contentassist.hover.InfoHoverComputer.<init>(InfoHoverComputer.groovy)
+	... 45 more
+Caused by: java.lang.ClassNotFoundException: An error occurred while automatically activating bundle org.thymeleaf.extras.eclipse.core (622).
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:126)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:572)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:401)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3229)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2335)
+	at org.codehaus.groovy.reflection.CachedClass$1.lambda$initValue$2(CachedClass.java:59)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:62)
+	at org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:54)
+	at org.codehaus.groovy.util.LazyReference.getLocked(LazyReference.java:50)
+	at org.codehaus.groovy.util.LazyReference.get(LazyReference.java:37)
+	at org.codehaus.groovy.reflection.CachedClass.getFields(CachedClass.java:255)
+	at groovy.lang.MetaClassImpl.addFields(MetaClassImpl.java:2500)
+	at groovy.lang.MetaClassImpl.inheritFields(MetaClassImpl.java:2495)
+	at groovy.lang.MetaClassImpl.setupProperties(MetaClassImpl.java:2381)
+	at groovy.lang.MetaClassImpl.addProperties(MetaClassImpl.java:3413)
+	at groovy.lang.MetaClassImpl.initialize(MetaClassImpl.java:3386)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:287)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:329)
+	at org.thymeleaf.extras.eclipse.contentassist.hover.InfoHoverComputer.$getStaticMetaClass(InfoHoverComputer.groovy)
+	at org.thymeleaf.extras.eclipse.contentassist.AbstractComputer.<init>(AbstractComputer.groovy)
+	at org.thymeleaf.extras.eclipse.contentassist.hover.InfoHoverComputer.<init>(InfoHoverComputer.groovy)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:204)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.wst.sse.ui.internal.ExtendedConfigurationBuilder$1.run(ExtendedConfigurationBuilder.java:118)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.wst.sse.ui.internal.ExtendedConfigurationBuilder.createExtension(ExtendedConfigurationBuilder.java:115)
+	... 35 more
+Caused by: org.osgi.framework.BundleException: Exception in org.thymeleaf.extras.eclipse.CorePlugin.start() of bundle org.thymeleaf.extras.eclipse.core.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:835)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:763)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1028)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:511)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	... 74 more
+Caused by: java.lang.ExceptionInInitializerError
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:1918)
+	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:3824)
+	at org.codehaus.groovy.runtime.callsite.ClassMetaClassGetPropertySite.getProperty(ClassMetaClassGetPropertySite.java:50)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:329)
+	at org.thymeleaf.extras.eclipse.CorePlugin.start(CorePlugin.groovy:59)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:814)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:806)
+	... 81 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dialectCache': Unsatisfied dependency expressed through field 'xmlDialectLoader'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'xmlDialectLoader' defined in URL [jar:file:/C:/Users/miyaw/Downloads/sts-4.11.0.RELEASE/plugins/org.thymeleaf.extras.eclipse.core_3.0.0.202005310144.jar!/org/thymeleaf/extras/eclipse/dialect/XmlDialectLoader.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: javax/activation/DataSource
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:89)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite.callConstructor(ConstructorSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at org.thymeleaf.extras.eclipse.SpringContainer.<init>(SpringContainer.groovy:32)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:268)
+	at org.thymeleaf.extras.eclipse.SpringContainer.<clinit>(SpringContainer.groovy)
+	... 96 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'xmlDialectLoader' defined in URL [jar:file:/C:/Users/miyaw/Downloads/sts-4.11.0.RELEASE/plugins/org.thymeleaf.extras.eclipse.core_3.0.0.202005310144.jar!/org/thymeleaf/extras/eclipse/dialect/XmlDialectLoader.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: javax/activation/DataSource
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	... 132 more
+Caused by: java.lang.NoClassDefFoundError: javax/activation/DataSource
+	at com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl.<clinit>(RuntimeBuiltinLeafInfoImpl.java:478)
+	at com.sun.xml.bind.v2.model.impl.RuntimeTypeInfoSetImpl.<init>(RuntimeTypeInfoSetImpl.java:63)
+	at com.sun.xml.bind.v2.model.impl.RuntimeModelBuilder.createTypeInfoSet(RuntimeModelBuilder.java:128)
+	at com.sun.xml.bind.v2.model.impl.RuntimeModelBuilder.createTypeInfoSet(RuntimeModelBuilder.java:84)
+	at com.sun.xml.bind.v2.model.impl.ModelBuilder.<init>(ModelBuilder.java:162)
+	at com.sun.xml.bind.v2.model.impl.RuntimeModelBuilder.<init>(RuntimeModelBuilder.java:92)
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(JAXBContextImpl.java:455)
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:303)
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:139)
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1156)
+	at com.sun.xml.bind.v2.ContextFactory.createContext(ContextFactory.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:297)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:286)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:409)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:721)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:662)
+	at javax.xml.bind.JAXBContext$newInstance.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at nz.net.ultraq.jaxb.XmlReader.<init>(XmlReader.groovy:54)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite.callConstructor(ConstructorSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at org.thymeleaf.extras.eclipse.dialect.XmlDialectLoader.<clinit>(XmlDialectLoader.groovy:35)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 143 more
+Caused by: java.lang.ClassNotFoundException: javax.activation.DataSource cannot be found by org.thymeleaf.extras.eclipse.core_3.0.0.202005310144
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:519)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	... 188 more
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2021-08-25 03:46:11.130
+!MESSAGE Plug-in "org.thymeleaf.extras.eclipse.contentassist" was unable to instantiate class "org.thymeleaf.extras.eclipse.contentassist.hover.InfoHoverComputer".
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:204)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.wst.sse.ui.internal.ExtendedConfigurationBuilder.createExtension(ExtendedConfigurationBuilder.java:107)
+	at org.eclipse.wst.sse.ui.internal.ExtendedConfigurationBuilder.createConfigurations(ExtendedConfigurationBuilder.java:152)
+	at org.eclipse.wst.sse.ui.internal.ExtendedConfigurationBuilder.getConfigurations(ExtendedConfigurationBuilder.java:222)
+	at org.eclipse.wst.sse.ui.internal.taginfo.BestMatchHover.createTextHoversList(BestMatchHover.java:81)
+	at org.eclipse.wst.sse.ui.internal.taginfo.BestMatchHover.getTextHovers(BestMatchHover.java:199)
+	at org.eclipse.wst.sse.ui.internal.taginfo.BestMatchHover.getHoverRegion(BestMatchHover.java:182)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:212)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+Caused by: java.lang.NoClassDefFoundError: org/thymeleaf/extras/eclipse/dialect/cache/DialectCache
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3229)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2335)
+	at org.codehaus.groovy.reflection.CachedClass$1.lambda$initValue$2(CachedClass.java:59)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:62)
+	at org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:54)
+	at org.codehaus.groovy.util.LazyReference.getLocked(LazyReference.java:50)
+	at org.codehaus.groovy.util.LazyReference.get(LazyReference.java:37)
+	at org.codehaus.groovy.reflection.CachedClass.getFields(CachedClass.java:255)
+	at groovy.lang.MetaClassImpl.addFields(MetaClassImpl.java:2500)
+	at groovy.lang.MetaClassImpl.inheritFields(MetaClassImpl.java:2495)
+	at groovy.lang.MetaClassImpl.setupProperties(MetaClassImpl.java:2381)
+	at groovy.lang.MetaClassImpl.addProperties(MetaClassImpl.java:3413)
+	at groovy.lang.MetaClassImpl.initialize(MetaClassImpl.java:3386)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:287)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:329)
+	at org.thymeleaf.extras.eclipse.contentassist.hover.InfoHoverComputer.$getStaticMetaClass(InfoHoverComputer.groovy)
+	at org.thymeleaf.extras.eclipse.contentassist.AbstractComputer.<init>(AbstractComputer.groovy)
+	at org.thymeleaf.extras.eclipse.contentassist.hover.InfoHoverComputer.<init>(InfoHoverComputer.groovy)
+	... 45 more
+Caused by: java.lang.ClassNotFoundException: An error occurred while automatically activating bundle org.thymeleaf.extras.eclipse.core (622).
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:126)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:572)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:401)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3229)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2335)
+	at org.codehaus.groovy.reflection.CachedClass$1.lambda$initValue$2(CachedClass.java:59)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:62)
+	at org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:54)
+	at org.codehaus.groovy.util.LazyReference.getLocked(LazyReference.java:50)
+	at org.codehaus.groovy.util.LazyReference.get(LazyReference.java:37)
+	at org.codehaus.groovy.reflection.CachedClass.getFields(CachedClass.java:255)
+	at groovy.lang.MetaClassImpl.addFields(MetaClassImpl.java:2500)
+	at groovy.lang.MetaClassImpl.inheritFields(MetaClassImpl.java:2495)
+	at groovy.lang.MetaClassImpl.setupProperties(MetaClassImpl.java:2381)
+	at groovy.lang.MetaClassImpl.addProperties(MetaClassImpl.java:3413)
+	at groovy.lang.MetaClassImpl.initialize(MetaClassImpl.java:3386)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:287)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:329)
+	at org.thymeleaf.extras.eclipse.contentassist.hover.InfoHoverComputer.$getStaticMetaClass(InfoHoverComputer.groovy)
+	at org.thymeleaf.extras.eclipse.contentassist.AbstractComputer.<init>(AbstractComputer.groovy)
+	at org.thymeleaf.extras.eclipse.contentassist.hover.InfoHoverComputer.<init>(InfoHoverComputer.groovy)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:204)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.wst.sse.ui.internal.ExtendedConfigurationBuilder$1.run(ExtendedConfigurationBuilder.java:118)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.wst.sse.ui.internal.ExtendedConfigurationBuilder.createExtension(ExtendedConfigurationBuilder.java:115)
+	... 35 more
+Caused by: org.osgi.framework.BundleException: Exception in org.thymeleaf.extras.eclipse.CorePlugin.start() of bundle org.thymeleaf.extras.eclipse.core.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:835)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:763)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1028)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:511)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	... 74 more
+Caused by: java.lang.ExceptionInInitializerError
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:1918)
+	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:3824)
+	at org.codehaus.groovy.runtime.callsite.ClassMetaClassGetPropertySite.getProperty(ClassMetaClassGetPropertySite.java:50)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:329)
+	at org.thymeleaf.extras.eclipse.CorePlugin.start(CorePlugin.groovy:59)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:814)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:806)
+	... 81 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dialectCache': Unsatisfied dependency expressed through field 'xmlDialectLoader'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'xmlDialectLoader' defined in URL [jar:file:/C:/Users/miyaw/Downloads/sts-4.11.0.RELEASE/plugins/org.thymeleaf.extras.eclipse.core_3.0.0.202005310144.jar!/org/thymeleaf/extras/eclipse/dialect/XmlDialectLoader.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: javax/activation/DataSource
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:89)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite.callConstructor(ConstructorSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at org.thymeleaf.extras.eclipse.SpringContainer.<init>(SpringContainer.groovy:32)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:268)
+	at org.thymeleaf.extras.eclipse.SpringContainer.<clinit>(SpringContainer.groovy)
+	... 96 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'xmlDialectLoader' defined in URL [jar:file:/C:/Users/miyaw/Downloads/sts-4.11.0.RELEASE/plugins/org.thymeleaf.extras.eclipse.core_3.0.0.202005310144.jar!/org/thymeleaf/extras/eclipse/dialect/XmlDialectLoader.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: javax/activation/DataSource
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	... 132 more
+Caused by: java.lang.NoClassDefFoundError: javax/activation/DataSource
+	at com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl.<clinit>(RuntimeBuiltinLeafInfoImpl.java:478)
+	at com.sun.xml.bind.v2.model.impl.RuntimeTypeInfoSetImpl.<init>(RuntimeTypeInfoSetImpl.java:63)
+	at com.sun.xml.bind.v2.model.impl.RuntimeModelBuilder.createTypeInfoSet(RuntimeModelBuilder.java:128)
+	at com.sun.xml.bind.v2.model.impl.RuntimeModelBuilder.createTypeInfoSet(RuntimeModelBuilder.java:84)
+	at com.sun.xml.bind.v2.model.impl.ModelBuilder.<init>(ModelBuilder.java:162)
+	at com.sun.xml.bind.v2.model.impl.RuntimeModelBuilder.<init>(RuntimeModelBuilder.java:92)
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(JAXBContextImpl.java:455)
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:303)
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:139)
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1156)
+	at com.sun.xml.bind.v2.ContextFactory.createContext(ContextFactory.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:297)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:286)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:409)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:721)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:662)
+	at javax.xml.bind.JAXBContext$newInstance.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at nz.net.ultraq.jaxb.XmlReader.<init>(XmlReader.groovy:54)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite.callConstructor(ConstructorSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at org.thymeleaf.extras.eclipse.dialect.XmlDialectLoader.<clinit>(XmlDialectLoader.groovy:35)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 143 more
+Caused by: java.lang.ClassNotFoundException: javax.activation.DataSource cannot be found by org.thymeleaf.extras.eclipse.core_3.0.0.202005310144
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:519)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	... 188 more
+Root exception:
+java.lang.NoClassDefFoundError: org/thymeleaf/extras/eclipse/dialect/cache/DialectCache
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3229)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2335)
+	at org.codehaus.groovy.reflection.CachedClass$1.lambda$initValue$2(CachedClass.java:59)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:62)
+	at org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:54)
+	at org.codehaus.groovy.util.LazyReference.getLocked(LazyReference.java:50)
+	at org.codehaus.groovy.util.LazyReference.get(LazyReference.java:37)
+	at org.codehaus.groovy.reflection.CachedClass.getFields(CachedClass.java:255)
+	at groovy.lang.MetaClassImpl.addFields(MetaClassImpl.java:2500)
+	at groovy.lang.MetaClassImpl.inheritFields(MetaClassImpl.java:2495)
+	at groovy.lang.MetaClassImpl.setupProperties(MetaClassImpl.java:2381)
+	at groovy.lang.MetaClassImpl.addProperties(MetaClassImpl.java:3413)
+	at groovy.lang.MetaClassImpl.initialize(MetaClassImpl.java:3386)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:287)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:329)
+	at org.thymeleaf.extras.eclipse.contentassist.hover.InfoHoverComputer.$getStaticMetaClass(InfoHoverComputer.groovy)
+	at org.thymeleaf.extras.eclipse.contentassist.AbstractComputer.<init>(AbstractComputer.groovy)
+	at org.thymeleaf.extras.eclipse.contentassist.hover.InfoHoverComputer.<init>(InfoHoverComputer.groovy)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:204)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.wst.sse.ui.internal.ExtendedConfigurationBuilder.createExtension(ExtendedConfigurationBuilder.java:107)
+	at org.eclipse.wst.sse.ui.internal.ExtendedConfigurationBuilder.createConfigurations(ExtendedConfigurationBuilder.java:152)
+	at org.eclipse.wst.sse.ui.internal.ExtendedConfigurationBuilder.getConfigurations(ExtendedConfigurationBuilder.java:222)
+	at org.eclipse.wst.sse.ui.internal.taginfo.BestMatchHover.createTextHoversList(BestMatchHover.java:81)
+	at org.eclipse.wst.sse.ui.internal.taginfo.BestMatchHover.getTextHovers(BestMatchHover.java:199)
+	at org.eclipse.wst.sse.ui.internal.taginfo.BestMatchHover.getHoverRegion(BestMatchHover.java:182)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:212)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+Caused by: java.lang.ClassNotFoundException: An error occurred while automatically activating bundle org.thymeleaf.extras.eclipse.core (622).
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:126)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:572)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:401)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3229)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2335)
+	at org.codehaus.groovy.reflection.CachedClass$1.lambda$initValue$2(CachedClass.java:59)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:62)
+	at org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:54)
+	at org.codehaus.groovy.util.LazyReference.getLocked(LazyReference.java:50)
+	at org.codehaus.groovy.util.LazyReference.get(LazyReference.java:37)
+	at org.codehaus.groovy.reflection.CachedClass.getFields(CachedClass.java:255)
+	at groovy.lang.MetaClassImpl.addFields(MetaClassImpl.java:2500)
+	at groovy.lang.MetaClassImpl.inheritFields(MetaClassImpl.java:2495)
+	at groovy.lang.MetaClassImpl.setupProperties(MetaClassImpl.java:2381)
+	at groovy.lang.MetaClassImpl.addProperties(MetaClassImpl.java:3413)
+	at groovy.lang.MetaClassImpl.initialize(MetaClassImpl.java:3386)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:287)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:329)
+	at org.thymeleaf.extras.eclipse.contentassist.hover.InfoHoverComputer.$getStaticMetaClass(InfoHoverComputer.groovy)
+	at org.thymeleaf.extras.eclipse.contentassist.AbstractComputer.<init>(AbstractComputer.groovy)
+	at org.thymeleaf.extras.eclipse.contentassist.hover.InfoHoverComputer.<init>(InfoHoverComputer.groovy)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:204)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.wst.sse.ui.internal.ExtendedConfigurationBuilder$1.run(ExtendedConfigurationBuilder.java:118)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.wst.sse.ui.internal.ExtendedConfigurationBuilder.createExtension(ExtendedConfigurationBuilder.java:115)
+	... 35 more
+Caused by: org.osgi.framework.BundleException: Exception in org.thymeleaf.extras.eclipse.CorePlugin.start() of bundle org.thymeleaf.extras.eclipse.core.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:835)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:763)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1028)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:511)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	... 74 more
+Caused by: java.lang.ExceptionInInitializerError
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:1918)
+	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:3824)
+	at org.codehaus.groovy.runtime.callsite.ClassMetaClassGetPropertySite.getProperty(ClassMetaClassGetPropertySite.java:50)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:329)
+	at org.thymeleaf.extras.eclipse.CorePlugin.start(CorePlugin.groovy:59)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:814)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:806)
+	... 81 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dialectCache': Unsatisfied dependency expressed through field 'xmlDialectLoader'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'xmlDialectLoader' defined in URL [jar:file:/C:/Users/miyaw/Downloads/sts-4.11.0.RELEASE/plugins/org.thymeleaf.extras.eclipse.core_3.0.0.202005310144.jar!/org/thymeleaf/extras/eclipse/dialect/XmlDialectLoader.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: javax/activation/DataSource
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:89)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite.callConstructor(ConstructorSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at org.thymeleaf.extras.eclipse.SpringContainer.<init>(SpringContainer.groovy:32)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:268)
+	at org.thymeleaf.extras.eclipse.SpringContainer.<clinit>(SpringContainer.groovy)
+	... 96 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'xmlDialectLoader' defined in URL [jar:file:/C:/Users/miyaw/Downloads/sts-4.11.0.RELEASE/plugins/org.thymeleaf.extras.eclipse.core_3.0.0.202005310144.jar!/org/thymeleaf/extras/eclipse/dialect/XmlDialectLoader.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: javax/activation/DataSource
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	... 132 more
+Caused by: java.lang.NoClassDefFoundError: javax/activation/DataSource
+	at com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl.<clinit>(RuntimeBuiltinLeafInfoImpl.java:478)
+	at com.sun.xml.bind.v2.model.impl.RuntimeTypeInfoSetImpl.<init>(RuntimeTypeInfoSetImpl.java:63)
+	at com.sun.xml.bind.v2.model.impl.RuntimeModelBuilder.createTypeInfoSet(RuntimeModelBuilder.java:128)
+	at com.sun.xml.bind.v2.model.impl.RuntimeModelBuilder.createTypeInfoSet(RuntimeModelBuilder.java:84)
+	at com.sun.xml.bind.v2.model.impl.ModelBuilder.<init>(ModelBuilder.java:162)
+	at com.sun.xml.bind.v2.model.impl.RuntimeModelBuilder.<init>(RuntimeModelBuilder.java:92)
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(JAXBContextImpl.java:455)
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:303)
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:139)
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1156)
+	at com.sun.xml.bind.v2.ContextFactory.createContext(ContextFactory.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:297)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:286)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:409)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:721)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:662)
+	at javax.xml.bind.JAXBContext$newInstance.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at nz.net.ultraq.jaxb.XmlReader.<init>(XmlReader.groovy:54)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite.callConstructor(ConstructorSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at org.thymeleaf.extras.eclipse.dialect.XmlDialectLoader.<clinit>(XmlDialectLoader.groovy:35)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 143 more
+Caused by: java.lang.ClassNotFoundException: javax.activation.DataSource cannot be found by org.thymeleaf.extras.eclipse.core_3.0.0.202005310144
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:519)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	... 188 more
+
+!ENTRY Activator 1 0 2021-08-25 03:46:26.378
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:46:26.400
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:46:26.405
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:46:26.458
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:46:26.497
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:46:26.501
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:46:26.511
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:48:25.402
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:48:25.406
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:48:25.409
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:48:25.413
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:48:25.508
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:48:25.516
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:48:25.520
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:48:54.636
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:48:54.687
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:48:54.696
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:48:55.852
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:48:55.861
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:48:55.872
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:48:59.074
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:48:59.078
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:48:59.084
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:48:59.088
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:48:59.142
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:48:59.151
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:48:59.191
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:48:59.211
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:48:59.215
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:49:06.043
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:49:06.046
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:49:06.050
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:49:06.054
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:49:06.163
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:49:06.166
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:49:06.204
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:49:06.243
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:49:06.248
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:49:39.613
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:49:39.617
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:49:39.621
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:49:39.625
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:49:39.714
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:49:39.717
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:49:39.722
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:50:48.842
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:50:48.845
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:50:48.849
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:50:48.853
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:50:48.944
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:50:48.947
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:50:48.951
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:50:56.281
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:50:56.289
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:50:56.297
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:50:57.759
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:50:57.766
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:50:57.774
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:51:01.014
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:51:01.022
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:51:01.031
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:51:01.654
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:51:01.658
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:51:01.664
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:51:01.684
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:51:01.754
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:51:01.757
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:51:02.182
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:51:02.185
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:51:02.188
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:51:02.191
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:51:02.259
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:51:02.263
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:51:09.104
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:51:09.107
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:51:09.111
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:51:09.116
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:51:09.195
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:51:09.197
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:51:09.385
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:51:09.388
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:51:09.391
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:51:09.394
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:51:09.465
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:51:09.468
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:52:00.745
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:52:00.748
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:52:00.752
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:52:00.758
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:52:00.841
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:52:00.844
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:52:01.279
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:52:01.282
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:52:01.285
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:52:01.288
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:52:01.348
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:52:01.357
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:52:17.018
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:52:17.022
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:52:17.028
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:52:17.119
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:52:17.550
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:52:17.554
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:52:17.558
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:52:17.561
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:52:17.628
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:52:17.632
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:53:09.250
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:53:09.255
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:53:09.261
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:53:09.821
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:53:09.953
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:53:09.956
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:53:46.714
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:53:46.717
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:53:46.724
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:53:46.732
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:53:46.817
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:53:46.820
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:53:47.119
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:53:47.123
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:53:47.127
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:53:47.223
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:56:07.547
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:56:07.565
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:56:07.568
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:56:08.122
+!MESSAGE Has main method computation for project 'ShopmeCommon'
+
+!ENTRY Activator 1 0 2021-08-25 03:56:08.211
+!MESSAGE Has main method computation for project 'ShopmeBackEnd'
+
+!ENTRY Activator 1 0 2021-08-25 03:56:08.214
+!MESSAGE Has main method computation for project 'ShopmeFrontEnd'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-25 03:57:07.657
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.tMpmXTgS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-25 03:57:07.662
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.tMpmXTgS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-25 03:57:07.666
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-25 03:57:07.721
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.tMpmXTgS => OK
