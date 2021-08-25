@@ -1,151 +1,28 @@
 <!DOCTYPE html>
 <html 	xmlns:th="http://www.tyhmeleaf.org"
-		xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5"	
->
-<head>
+		xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, minumum-scale=1.0">
-<title>Home - Admin Control Panel</title>
-	
-<link rel="stylesheet"  type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" />
-<link rel="stylesheet" type="text/css" th:href="@{/webjars/font-awesome/5.15.1/css/all.css}"/>
-<link rel="stylesheet" type="text/css" th:href="@{/style.css}" />
-<script type="text/javascript" th:src="@{/webjars/jquery/jquery.min.js}"></script>
-<script type="text/javascript" th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+<head th:replace="partials/head ::  head_section('Home - Shopme')"></head>
 
 
-
-</head>
 <body>
 
 
-	<!--logout form -->
-		<form th:action="@{/logout}" method="post" th:hidden="true" name="logoutForm">
-			<input type="submit" />
-		</form>
-
-<!-- NAVBAR -->
-		<nav class="navbar navbar-expand-md bg-dark navbar-dark">
-			<a class="navbar-brand" th:href="@{/}">
-				<img th:src="@{/images/ShopmeAdminSmall.png}" />
-			</a>
-			
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			    <span class="navbar-toggler-icon"></span>
-			  </button>
-						
-					
-		 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			    <ul class="navbar-nav" style="flex-wrap:wrap;">
-			    
-			      <li class="nav-item">
-			        <a class="nav-link" th:href="@{/users}">Users</a>
-			      </li>
-			      
-		      	 <li class="nav-item">
-			        <a class="nav-link" th:href="@{/categories}">Categories</a>
-	      		 </li>
-			     
-			     
-			     <li class="nav-item">
-			        <a class="nav-link" th:href="@{/brands}">Brands</a>
-		      	 </li>
-			     
-			     
-			     <li class="nav-item">
-			        <a class="nav-link" th:href="@{/products}">Products</a>
-   				 </li>
-			     
-			      <li class="nav-item">
-			        <a class="nav-link" th:href="@{/customers}">Customers</a>
-   				 </li>
-   				 
-   				 
-   				  <li class="nav-item">
-			        <a class="nav-link" th:href="@{/shipping}">Shipping</a>
-   				 </li>
-   				 
-   				  <li class="nav-item " >
-			        <a class="nav-link" th:href="@{/orders}">Orders</a>
-   				 </li>
-   				 
-   				  <li class="nav-item">
-			        <a class="nav-link" th:href="@{/report}">Sales Report</a>
-   				 </li>
-			     
-			      <li class="nav-item">
-			        <a class="nav-link" th:href="@{/articles}">Articles</a>
-   				 </li>
-			     
-			     
-			      <li class="nav-item">
-			        <a class="nav-link" th:href="@{/menus}">Menus</a>
-   				 </li>
-			     
-			      <li class="nav-item">
-			        <a class="nav-link" th:href="@{/settings}">Settings</a>
-   				 </li>
-			     
-			     
-			     <li class="nav-item ml-3">
-			     	<span><i class="fas fa-user fa-2x icon-silver "></i></span>
-			     </li>
-			     
-			     
-			     <li class="nav-item dropdown">
-			     
-			     	<a  class="nav-link dropdown-toggle" data-toggle="dropdown" style="color:silver !important;" 
-			     		sec:authentication="principal.fullname">
-			     	</a>
-			     	<!-- dropdown -->
-			     	<div class="dropdown-menu">
-			     		<a class="dropdown-item" id="logoutLink"  href="">Logout</a>
-			     	</div>
-			     	<!-- /dropdown -->
-			     </li>
-			      
-			    </ul>
-		  	</div>	
-		</nav>
-	<!-- /NAVBAR -->
-	
+	<!--  NAVBAR -->
+		<div th:replace="partials/_navbar :: mynavbar"></div>
+	<!-- / NAVBAR -->
 
 
-	
-		<div>
-			<h1 class="text-danger">Admin Control Panel..</h1>
-		</div>
+
+	<div>
+		<h1 class="text-danger">Admin Control Panel..</h1>
+	</div>
 
 
 	
 	<!-- FOOTER -->
-		<footer>
-				<p>Shopme Control Panel - Copyright &copy; Shopme</p>
-		</footer>
+	 	<div th:replace="partials/_footer :: myfooter"></div>
 	<!-- /FOOTER -->
-
-
-	<script type="text/javascript">
-	
-	
-		//LOGOUT jQuery
-		$(document).ready(function () {
-			$("#logoutLink").on("click", function(e) {
-				e.preventDefault();
-				document.logoutForm.submit();
-			})
-			
-		});
-		
-	</script>
-
-
-
-
-
-
-
 
 
 </body>

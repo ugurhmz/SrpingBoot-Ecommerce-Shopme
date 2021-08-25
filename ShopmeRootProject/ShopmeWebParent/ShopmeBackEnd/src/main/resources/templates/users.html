@@ -1,92 +1,16 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.tyhmeleaf.org">
-<head>
-
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, minumum-scale=1.0">
-<title>Home - Admin Control Panel</title>
-	
-<link rel="stylesheet"  type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" />
-<link rel="stylesheet" type="text/css"  th:href="@{/fontawesome/all.css}"/>
-<link rel="stylesheet" type="text/css" th:href="@{/style.css}" />
 
 
-<script type="text/javascript" th:src="@{/webjars/jquery/jquery.min.js}"></script>
-<script type="text/javascript" th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+<head th:replace="partials/head :: head_section('Users - Admin Panel')"></head>
 
 
-</head>
 <body>
 
-<!-- NAVBAR -->
-		<nav class="navbar navbar-expand-md bg-dark navbar-dark">
-			<a class="navbar-brand" th:href="@{/}">
-				<img th:src="@{/images/ShopmeAdminSmall.png}" />
-			</a>
-			
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			    <span class="navbar-toggler-icon"></span>
-			  </button>
-						
-					
-		 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			    <ul class="navbar-nav mr-auto ">
-			    
-			      <li class="nav-item">
-			        <a class="nav-link" th:href="@{/users}">Users</a>
-			      </li>
-			      
-		      	 <li class="nav-item">
-			        <a class="nav-link" th:href="@{/categories}">Categories</a>
-	      		 </li>
-			     
-			     
-			     <li class="nav-item">
-			        <a class="nav-link" th:href="@{/brands}">Brands</a>
-		      	 </li>
-			     
-			     
-			     <li class="nav-item">
-			        <a class="nav-link" th:href="@{/products}">Products</a>
-   				 </li>
-			     
-			      <li class="nav-item">
-			        <a class="nav-link" th:href="@{/customers}">Customers</a>
-   				 </li>
-   				 
-   				 
-   				  <li class="nav-item">
-			        <a class="nav-link" th:href="@{/shipping}">Shipping</a>
-   				 </li>
-   				 
-   				  <li class="nav-item " >
-			        <a class="nav-link" th:href="@{/orders}">Orders</a>
-   				 </li>
-   				 
-   				  <li class="nav-item">
-			        <a class="nav-link" th:href="@{/report}">Sales Report</a>
-   				 </li>
-			     
-			      <li class="nav-item">
-			        <a class="nav-link" th:href="@{/articles}">Articles</a>
-   				 </li>
-			     
-			     
-			      <li class="nav-item">
-			        <a class="nav-link" th:href="@{/menus}">Menus</a>
-   				 </li>
-			     
-			      <li class="nav-item">
-			        <a class="nav-link" th:href="@{/settings}">Settings</a>
-   				 </li>
-			     
-			     
-			      
-			    </ul>
-		  	</div>	
-		</nav>
-	<!-- /NAVBAR -->
-	
+	<!--  NAVBAR -->
+		<div th:replace="partials/_navbar :: mynavbar"></div>
+	<!-- / NAVBAR -->
+
 
 
 	<!--  CONTAINER -->
@@ -149,15 +73,15 @@
 				<thead class="thead-dark">
 					<tr>
 						<th class="hideable-column">
-							<th th:replace="fragments :: column_link('id', 'USER ID','tag')"/>
+							<th th:replace="partials/fragments :: column_link('id', 'USER ID','tag')"/>
 						</th>
 						
 						<th scope="col">
 							PHOTOS
 						</th>
-						
+					
 						<th class="hideable-column">
-							<th th:replace="fragments :: column_link('email','E-mail','tag')" />
+							<th th:replace="partials/fragments :: column_link('email','E-mail','tag')" />
 							
 						</th>
 						<!--  before fragments 
@@ -180,13 +104,13 @@
 						</th>
 						
 						-->
-						<th th:replace="fragments :: column_link('firstName','First Name','none')"></th>
+						<th th:replace="partials/fragments :: column_link('firstName','First Name','none')"></th>
 						
-						<th th:replace="fragments :: column_link('lastName','Last Name','none')"></th>
+						<th th:replace="partials/fragments :: column_link('lastName','Last Name','none')"></th>
 						<th scope="col">
 							ROLES 
 						</th>
-						<th th:replace="fragments :: column_link('enabled','Enabled','none')">
+						<th th:replace="partials/fragments :: column_link('enabled','Enabled','none')">
 						
 						
 						<th scope="col">
@@ -349,7 +273,7 @@
 									      	First
 									      </a>	
 							      	-->
-							      	<a class="bg-dark" th:replace="fragments :: page_link(1, 'First')"></a>    			
+							      	<a class="bg-dark" th:replace="partials/fragments :: page_link(1, 'First')"></a>    			
 							    </li>
 							  
 							  
@@ -362,7 +286,7 @@
 								      		tabindex="-1" aria-disabled="true"><span><i class="fas fa-angle-left"></i></span>
 								      </a>
 							      -->
-							      <a th:replace="fragments :: page_link( ${currentPage -1 }, 'Previous')"></a>    
+							      <a th:replace="partials/fragments :: page_link( ${currentPage -1 }, 'Previous')"></a>    
 							      
 							    </li>
 							    
@@ -375,7 +299,7 @@
 										    		[[${i}]]
 										    </a>
 									 -->
-									 <a th:replace="fragments :: page_link( ${i}, ${i})"></a> 
+									 <a th:replace="partials/fragments :: page_link( ${i}, ${i})"></a> 
 									 
 							    </li>
 							  
@@ -391,7 +315,7 @@
 							      </a>
 							      -->
 							      
-							       <a th:replace="fragments :: page_link( ${currentPage + 1 }, 'Next')"></a> 
+							       <a th:replace="partials/fragments :: page_link( ${currentPage + 1 }, 'Next')"></a> 
 							      
 							    </li>
 							    
@@ -400,7 +324,7 @@
 							      <!--  before fragments  
 							     	 <a class="page-link bg-dark text-white" th:href="@{'/users/page/'+${totalPages} + '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir} + ${ keyword != null ? '&keyword=' + keyword : '' }}">Last</a>
 							     -->
-							     <a th:replace="fragments :: page_link( ${totalPages}, 'Last')"></a> 
+							     <a th:replace="partials/fragments :: page_link( ${totalPages}, 'Last')"></a> 
 							    
 							    </li>
 							    
@@ -450,9 +374,7 @@
 	
 	
 	<!-- FOOTER -->
-		<footer>
-				<p>Shopme Control Panel - Copyright &copy; Shopme</p>
-		</footer>
+	 	<div th:replace="partials/_footer :: myfooter"></div>
 	<!-- /FOOTER -->
 	
 	
@@ -478,9 +400,12 @@
 	
 	// Clear Filter onClick
 	function clearFilter(){
-		window.location="[[@{/users}]]";
+		
+		//window.location="[[@{/users}]]";
+		
+		window.location.href='/ShopmeAdmin/users/page/1?sortField=id&sortDir=asc';
 	}
-	
+
 	
 	</script>
 	
