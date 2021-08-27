@@ -38,7 +38,7 @@ public class AccountController {
 		model.addAttribute("user",user);
 		model.addAttribute("pageTitle","Account Details Form");
 		
-		return "accountForm";
+		return "users/accountForm";
 	}
 	
 	

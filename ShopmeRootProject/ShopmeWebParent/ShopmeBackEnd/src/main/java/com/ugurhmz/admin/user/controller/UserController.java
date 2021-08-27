@@ -87,7 +87,7 @@ public class UserController {
 		model.addAttribute("pageTitle","Create New User");
 		
 		
-		return "newUserForm";
+		return "users/newUserForm";
 	}
 	
 	
@@ -191,7 +191,7 @@ public class UserController {
 			model.addAttribute("pageTitle","Update User : "+id);
 			model.addAttribute("roles",listRoles);
 			
-			return "newUserForm";
+			return "users/newUserForm";
 			
 		} catch(UserNotFoundException e) {
 			redirectAttributes.addFlashAttribute("message",e.getMessage());
@@ -270,7 +270,7 @@ public class UserController {
 		model.addAttribute("reverseSortDir",reverseSortDir);
 		model.addAttribute("keyword",keyword);
 		
-		return "users";
+		return "users/users";
 		
 	}
 	
