@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html 	xmlns:th="http://www.tyhmeleaf.org"
+		xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+
+<head th:replace="partials/head ::  head_section('EROR PAGE')" />
+
+
+<body>
+
+<div class="container-fluid p-0">
+
+	<!--  NAVBAR -->
+		<div th:replace="partials/_navbar :: mynavbar"></div>
+	<!-- / NAVBAR -->
+
+		
+		<div class="m-3">
+			<h2>Sorry, the requested page could not be found</h2>
+		</div>
+		
+	
+	<!-- FOOTER -->
+	 	<div th:replace="partials/_footer :: myfooter"></div>
+	<!-- /FOOTER -->
+
+</div>
+
+
+</body>
+</html>
