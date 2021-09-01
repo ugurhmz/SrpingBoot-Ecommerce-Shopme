@@ -36,8 +36,13 @@ public class Category {
 	@JoinColumn(name="parent_id")			//	categories tablosunda ->  parent_id column olacak.
 	private Category parent;
 	
+	
+	
 	@OneToMany(mappedBy="parent")
 	private Set<Category> children = new HashSet<>();		//Set -> unique,  Set does not have index no, order mixed
+
+	
+	
 
 	
 	// DEF CONSTRUCTOR   -> For nested exception is org.hibernate.InstantiationException

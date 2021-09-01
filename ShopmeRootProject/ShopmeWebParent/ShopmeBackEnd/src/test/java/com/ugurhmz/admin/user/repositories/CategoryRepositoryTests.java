@@ -17,7 +17,7 @@ import org.springframework.test.annotation.Rollback;
 
 import com.ugurhmz.common.entity.Category;
 
-@DataJpaTest
+@DataJpaTest(showSql = false)
 @AutoConfigureTestDatabase(replace = Replace.NONE)
 @Rollback(false)
 public class CategoryRepositoryTests {
@@ -124,7 +124,7 @@ public class CategoryRepositoryTests {
 	
 	
 	
-	// Get Category test ( Bunu yaparken, default constructor olması gerektiğini unutma!!)
+	// Get  Root Category -> children( Bunu yaparken, default constructor olması gerektiğini unutma!!)  (7)
 	@Test
 	public void testGetCategory() {
 		Category category = categoryRepository.findById(1).get();
@@ -138,6 +138,26 @@ public class CategoryRepositoryTests {
 		
 		assertThat(children.size()).isGreaterThan(0);
 		
+	}
+	
+	// Print HierarchicalCategories		(8)
+	@Test
+	public void testPrintHierarchicalCategories() {
+		Iterable<Category> categories = categoryRepository.findAll();
+		
+		for(Category category : categories) {
+			if(category.getParent() == null) {
+				
+				System.out.println(category.getName());
+				Set<Category> children = category.getChildren();
+				
+				for(Category subCategory : children) {
+					System.out.println("--" + subCategory.getName());
+				}
+				
+				
+			}
+		}
 	}
 	
 	
