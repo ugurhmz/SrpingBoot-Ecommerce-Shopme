@@ -113,7 +113,7 @@ public class CategoryRepositoryTests {
 	// Children category added			(6)
 	@Test
 	public void testSubCategory() {
-		Category parent = new Category(12);
+		Category parent = new Category(9);
 		
 		Category canon = new Category("CANON EOS M50 ",parent);
 		
@@ -153,13 +153,50 @@ public class CategoryRepositoryTests {
 				
 				for(Category subCategory : children) {
 					System.out.println("--" + subCategory.getName());
-				}
-				
-				
+					printChildren(subCategory,1);
+				}	
 			}
 		}
 	}
 	
+	
+	// print children  (8.5)
+	private void printChildren(Category parent, int subLevel) {
+		int newSubLevel = subLevel + 1;
+		Set<Category> children = parent.getChildren();
+		
+		for(Category subCategory : children) {
+			for(int i=0 ; i < newSubLevel ;i++) {
+				System.out.print("--");
+			}
+			
+			System.out.println(subCategory.getName());
+			
+			printChildren(subCategory, newSubLevel);	
+		}	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	// Children category added			(9)  for test
+		@Test
+		public void testNewSubCategory() {
+			Category parent = new Category(3);
+			
+			Category gamingLaptops = new Category("Gaming Laptops",parent);
+			
+			Category savedCategory = categoryRepository.save(gamingLaptops);
+			assertThat(savedCategory.getId()).isGreaterThan(0);
+		}
+		
+		
 	
 	
 }
