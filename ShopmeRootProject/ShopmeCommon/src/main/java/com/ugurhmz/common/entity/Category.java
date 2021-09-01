@@ -40,12 +40,29 @@ public class Category {
 	private Set<Category> children = new HashSet<>();		//Set -> unique,  Set does not have index no, order mixed
 
 	
-	// nullable olanları yazdık testte sorun çıkartmasın .
+	
+	public Category(Integer id) {
+		this.id = id;
+	}
+	
+	
+	
+	// nullable olanları yazdık testte sorun çıkartmasın . ROOT category için constructor
 	public Category(String name) {
 		this.name =name;
 		this.nickName = name;
 		this.image = "def.png";
 	}
+	
+	
+	
+	// Sub category Constructor
+	public Category(String name, Category parent) {
+		this(name);
+		this.parent = parent;	
+	}
+	
+	
 	
 	
 	// GETTER & SETTER
