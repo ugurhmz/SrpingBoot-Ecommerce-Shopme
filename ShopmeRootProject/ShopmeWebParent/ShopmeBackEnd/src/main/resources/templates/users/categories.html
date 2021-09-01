@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.tyhmeleaf.org">
+
+
+<head th:replace="partials/head :: head_section('Users - Admin Panel')"></head>
+
+
+<body>
+
+	<!--  NAVBAR -->
+		<div th:replace="partials/_navbar :: mynavbar"></div>
+	<!-- / NAVBAR -->
+
+
+
+	<!--  CONTAINER -->
+	<div class="container-fluid" style="margin-bottom:5rem;">
+	
+		<div class="my-1">
+			<h1 class="text-center" > <a class="text-dark text-decoration-none" th:href="@{/users}">User Manage System</a></h1>
+			
+			<a th:href="@{/users/new}" class="text-success fas fa-user-plus fa-2x">
+				
+			</a>
+			&nbsp; &nbsp;
+			<a th:href="@{/users/export/csv}" class="fas fa-file-csv fa-2x text-dark"> 
+				
+			</a>
+			
+			
+			<!-- SEARCH INPUT -->
+				<div style="float:right;" class="mb-2">
+					<form th:action="@{'/users/page/1'}" class="form-inline  my-2 my-lg-0">
+					
+						<input 	type="hidden"  name="sortField" th:value="${sortField}" />
+						<input  type="hidden" name="sortDir" th:value="${sortDir}" />
+						
+						<input 	class="form-control mr-sm-2" type="search" name="keyword" 
+								th:value="${keyword}" required placeholder="Search" aria-label="Search" />
+						
+						<button class="btn btn-outline-primary my-2 my-sm-0 fas fa-search" style="height:40px;" type="submit">
+							
+						</button>
+						
+						<button class="btn btn-outline-dark ml-1" type="button" onClick="clearFilter()">
+							Clear						
+						</button>
+						
+						
+					</form>
+				</div>
+			
+			
+			<!--/SEARCH INPUT -->
+				
+		</div>
+		
+		<div th:if="${message != null}">
+				
+					<div class="alert text-center alert-success alert-dismissible fade show" role="alert">
+					  <strong>[[${message}]] </strong>
+					  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+					    <span aria-hidden="true">&times;</span>
+					  </button>
+					</div>
+				
+		</div>
+		
+		
+		<!--  TABLE -->
+		<div class="mt-2 full-details">
+			<table class="table table-bordered table-striped table-hover text-center">
+				<thead class="thead-dark">
+					<tr>
+						
+							<th >ID</th>
+					
+						
+						<th scope="col">
+							Category Image
+						</th>
+					
+					
+							<th scope="col">Category Name</th>
+							
+					
+						
+							<th scope="col">Category Nick-Name</th>
+							
+					
+						
+						
+							<th scope="col">ENABLED</th>
+					
+						<th scope="col">
+							OPERATIONS 
+						</th>
+						
+					</tr>
+				</thead>
+				
+				<tbody>
+					<tr th:each="category : ${listCategories}">
+					
+					
+				
+						<th class="hideable-column">[[${category.id}]]</th>
+						  <td>
+					      	<span th:if="${category.image  == 'def.png'}"><i class="fas fa-portrait fa-3x icon-gray"></i></span>
+					      	<img th:if="${category.image == null}"  style="width:100px;height:110px;" />
+						</td>
+						
+						
+						
+						<td class="hideable-column" >[[${category.name}]]</td>
+						<td>[[${category.nickName}]]</td>
+						
+						
+						<td style="font-size:1.4rem;">
+							<a  th:if="${category.enabled == true}" class="fas fa-check-circle icon-green "
+								th:href="@{'/categories/' + ${category.id} + '/enabled/false'}" title="Disable This User">
+							</a>
+							
+							<a  th:if="${category.enabled == false}" class="fas fa-circle icon-silver"
+								th:href="@{'/categories/' + ${category.id} + '/enabled/true'}" title="Enable this User">
+							
+							
+							</a>
+							
+						</td>
+						
+						<td class="col-md-2">
+						
+							<!-- delete btn -->
+								<a 	class="btn btn-outline-danger fas fa-trash-alt linkDelete"
+									th:href="@{'/category/delete/' + ${category.id}}"
+									title="Delete This User"
+									th:userId="${category.id}"
+									>
+									
+								</a>
+							<!-- /delete btn -->
+							
+							
+							<!--  update btn -->
+								<a 	class="btn btn-outline-warning fas fa-edit ml-1 "
+									th:href="@{'/category/edit/' + ${category.id}}"
+									title="Edit This User"
+								>
+								
+								</a>
+							<!--  /update btn -->
+							
+							
+							
+						</td>
+					</tr>
+					
+				</tbody>
+				
+				
+			</table>
+		</div>
+		
+		
+		
+		
+		<!--  FOR SMALL SCREEN -->
+		 <div class="less-details">
+		 	<div th:each="category : ${listCategories}" class="row my-2  myborder">
+		 		<div class="col">
+		 			<span th:if="${category.image == null}"><i class="fas fa-portrait fa-3x icon-gray"></i></span>
+			      	<img th:if="${category.image  != null}"  style="width:100px;height:110px;" />
+						
+		 		</div>
+		 		
+		 		<div class="col ">
+		 			<div>[[${category.name}]]</div>
+		 			<div>[[${user.nickName}]]</div>
+		 			
+		 			<div class="mt-3">
+		 				<a  th:if="${category.enabled == true}" class="fas fa-check-circle icon-green"
+								th:href="@{'/categories/' + ${category.id} + '/enabled/false'}" title="Disable This User">
+						</a>
+								
+						<a  th:if="${category.enabled == false}" class="fas fa-circle icon-silver"
+									th:href="@{'/category/' + ${category.id} + '/enabled/true'}" title="Enable this User">
+							
+							
+						</a>
+			 			&nbsp;&nbsp;
+			 			
+		 				<!-- delete btn -->
+								<a 	class="btn btn-outline-danger fas fa-trash-alt linkDelete"
+									th:href="@{'/category/delete/' + ${category.id}}"
+									title="Delete This User"
+									th:userId="${category.id}"
+									>
+									
+								</a>
+							<!-- /delete btn -->
+							
+							
+							<!--  update btn -->
+								<a 	class="btn btn-outline-warning fas fa-edit ml-1 "
+									th:href="@{'/category/edit/' + ${category.id}}"
+									title="Edit This User"
+								>
+								
+								</a>
+							<!--  /update btn -->
+			 			
+			 			</div>
+		 			
+		 		</div>
+		 	</div>
+		 </div>
+		
+		
+		
+		
+		
+		
+	
+		
+		
+		
+	</div>
+
+<!--  /CONTAINER -->
+	
+	<!-- Modal -->
+					<div class="modal fade text-center" id="confirmDeleteModal" tabindex="-1">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						    
+						      <div class="modal-header">
+						        <h5 class="modal-title">Delete Confirmation</h5>
+						        
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						        
+						      </div>
+						      
+						      <div class="modal-body">
+						        <p id="modalBody"></p>
+						      </div>
+						      
+						      <div class="modal-footer">
+						        <a class="btn btn-danger" href="" id="yesDeleteBtn">Yes</a>
+						        <button type="button" class="btn btn-dark" data-dismiss="modal">No</button>
+						      </div> 
+						      
+						    </div>
+						  </div>
+					</div>
+	<!-- /Modal -->	
+	
+	
+	
+	
+	
+	
+	<!-- FOOTER -->
+	 	<div th:replace="partials/_footer :: myfooter"></div>
+	<!-- /FOOTER -->
+	
+	
+	<script type="text/javascript">
+	
+	
+		
+	
+	// Clear Filter onClick
+	function clearFilter(){
+		
+		//window.location="[[@{/users}]]";
+		
+		window.location.href='/ShopmeAdmin/categories';
+	}
+
+	
+	</script>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+</body>
+</html>
