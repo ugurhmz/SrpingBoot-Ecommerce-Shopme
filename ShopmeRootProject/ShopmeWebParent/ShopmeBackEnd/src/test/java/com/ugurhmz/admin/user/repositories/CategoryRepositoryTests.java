@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.Set;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -72,9 +73,9 @@ public class CategoryRepositoryTests {
 	}
 	
 	
-	// Root category Electorics ->    add subcategory to parent.
+	// Root category Electorics ->    add subcategory to parent. (4)
 	@Test
-	public void testCreateMultipleOtherSubCategory() {
+	public void testCreateMultipleOtherSubCategory() {	
 		Category parent = new Category(2);
 		
 		
@@ -95,7 +96,7 @@ public class CategoryRepositoryTests {
 		
 	
 	
-	//adding multiple sub category with  [JAVA 9]
+	//adding multiple sub category with  [JAVA 9] (5)
 	@Test
 	public void testCreateMultipleByJava9SubCategory() {
 		Category parent = new Category(2);
@@ -109,7 +110,7 @@ public class CategoryRepositoryTests {
 		
 	}	
 	
-	// Children category added
+	// Children category added			(6)
 	@Test
 	public void testSubCategory() {
 		Category parent = new Category(12);
@@ -123,5 +124,36 @@ public class CategoryRepositoryTests {
 	
 	
 	
+	// Get Category test ( Bunu yaparken, default constructor olması gerektiğini unutma!!)
+	@Test
+	public void testGetCategory() {
+		Category category = categoryRepository.findById(1).get();
+		System.out.println("category name : "+category.getName());
+		
+		Set<Category>  children = category.getChildren();
+		
+		for(Category subCategory : children) {
+			System.out.println(subCategory.getName()+" ");
+		}
+		
+		assertThat(children.size()).isGreaterThan(0);
+		
+	}
+	
+	
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

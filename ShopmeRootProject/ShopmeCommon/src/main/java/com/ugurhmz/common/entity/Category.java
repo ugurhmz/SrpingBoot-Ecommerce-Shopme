@@ -40,7 +40,13 @@ public class Category {
 	private Set<Category> children = new HashSet<>();		//Set -> unique,  Set does not have index no, order mixed
 
 	
+	// DEF CONSTRUCTOR   -> For nested exception is org.hibernate.InstantiationException
+	public Category(){
+
+	}
 	
+	
+	// ONLY ID CONSTRUCTOR
 	public Category(Integer id) {
 		this.id = id;
 	}
