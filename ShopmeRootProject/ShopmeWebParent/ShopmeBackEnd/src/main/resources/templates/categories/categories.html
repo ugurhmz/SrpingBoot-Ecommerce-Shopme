@@ -2,7 +2,7 @@
 <html xmlns:th="http://www.tyhmeleaf.org">
 
 
-<head th:replace="partials/head :: head_section('Users - Admin Panel')"></head>
+<head th:replace="partials/head :: head_section('Categories')"></head>
 
 
 <body>
@@ -17,23 +17,21 @@
 	<div class="container-fluid" style="margin-bottom:5rem;">
 	
 		<div class="my-1">
-			<h1 class="text-center" > <a class="text-dark text-decoration-none" th:href="@{/users}">User Manage System</a></h1>
+			<h1 class="text-center" > <a class="text-dark text-decoration-none" th:href="@{/users}">Categories Management</a></h1>
 			
-			<a th:href="@{/users/new}" class="text-success fas fa-user-plus fa-2x">
+			<a th:href="@{/categories/new}" class="text-success fas fa-tags fa-2x">
 				
 			</a>
 			&nbsp; &nbsp;
-			<a th:href="@{/users/export/csv}" class="fas fa-file-csv fa-2x text-dark"> 
+			<a th:href="@{/categories/export/csv}" class="fas fa-file-csv fa-2x text-dark"> 
 				
 			</a>
 			
 			
 			<!-- SEARCH INPUT -->
 				<div style="float:right;" class="mb-2">
-					<form th:action="@{'/users/page/1'}" class="form-inline  my-2 my-lg-0">
+					<form th:action="@{'/categories/page/1'}" class="form-inline  my-2 my-lg-0">
 					
-						<input 	type="hidden"  name="sortField" th:value="${sortField}" />
-						<input  type="hidden" name="sortDir" th:value="${sortDir}" />
 						
 						<input 	class="form-control mr-sm-2" type="search" name="keyword" 
 								th:value="${keyword}" required placeholder="Search" aria-label="Search" />
@@ -72,29 +70,17 @@
 			<table class="table table-bordered table-striped table-hover text-center">
 				<thead class="thead-dark">
 					<tr>
+						<th >ID</th>
 						
-							<th >ID</th>
-					
+						<th scope="col">Category Image</th>
+				
+						<th scope="col">Category Name</th>
 						
-						<th scope="col">
-							Category Image
-						</th>
-					
-					
-							<th scope="col">Category Name</th>
-							
-					
+						<th scope="col">Category Nick-Name</th>
 						
-							<th scope="col">Category Nick-Name</th>
-							
-					
-						
-						
-							<th scope="col">ENABLED</th>
-					
-						<th scope="col">
-							OPERATIONS 
-						</th>
+						<th scope="col">ENABLED</th>
+				
+						<th scope="col">OPERATIONS </th>
 						
 					</tr>
 				</thead>
@@ -102,19 +88,14 @@
 				<tbody>
 					<tr th:each="category : ${listCategories}">
 					
-					
-				
 						<th class="hideable-column">[[${category.id}]]</th>
 						  <td>
 					      	<span th:if="${category.image  == 'def.png'}"><i class="fas fa-portrait fa-3x icon-gray"></i></span>
 					      	<img th:if="${category.image == null}"  style="width:100px;height:110px;" />
 						</td>
 						
-						
-						
 						<td class="hideable-column" >[[${category.name}]]</td>
 						<td>[[${category.nickName}]]</td>
-						
 						
 						<td style="font-size:1.4rem;">
 							<a  th:if="${category.enabled == true}" class="fas fa-check-circle icon-green "
@@ -161,68 +142,6 @@
 				
 			</table>
 		</div>
-		
-		
-		
-		
-		<!--  FOR SMALL SCREEN -->
-		 <div class="less-details">
-		 	<div th:each="category : ${listCategories}" class="row my-2  myborder">
-		 		<div class="col">
-		 			<span th:if="${category.image == null}"><i class="fas fa-portrait fa-3x icon-gray"></i></span>
-			      	<img th:if="${category.image  != null}"  style="width:100px;height:110px;" />
-						
-		 		</div>
-		 		
-		 		<div class="col ">
-		 			<div>[[${category.name}]]</div>
-		 			<div>[[${user.nickName}]]</div>
-		 			
-		 			<div class="mt-3">
-		 				<a  th:if="${category.enabled == true}" class="fas fa-check-circle icon-green"
-								th:href="@{'/categories/' + ${category.id} + '/enabled/false'}" title="Disable This User">
-						</a>
-								
-						<a  th:if="${category.enabled == false}" class="fas fa-circle icon-silver"
-									th:href="@{'/category/' + ${category.id} + '/enabled/true'}" title="Enable this User">
-							
-							
-						</a>
-			 			&nbsp;&nbsp;
-			 			
-		 				<!-- delete btn -->
-								<a 	class="btn btn-outline-danger fas fa-trash-alt linkDelete"
-									th:href="@{'/category/delete/' + ${category.id}}"
-									title="Delete This User"
-									th:userId="${category.id}"
-									>
-									
-								</a>
-							<!-- /delete btn -->
-							
-							
-							<!--  update btn -->
-								<a 	class="btn btn-outline-warning fas fa-edit ml-1 "
-									th:href="@{'/category/edit/' + ${category.id}}"
-									title="Edit This User"
-								>
-								
-								</a>
-							<!--  /update btn -->
-			 			
-			 			</div>
-		 			
-		 		</div>
-		 	</div>
-		 </div>
-		
-		
-		
-		
-		
-		
-	
-		
 		
 		
 	</div>

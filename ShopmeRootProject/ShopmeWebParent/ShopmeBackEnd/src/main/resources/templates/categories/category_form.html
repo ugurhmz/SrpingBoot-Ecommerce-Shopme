@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.tyhmeleaf.org">
+
+<head th:replace="partials/head :: head_section(${pageTitle})"></head>
+	
+<body>
+	
+	<!--  NAVBAR -->
+		<div th:replace="partials/_navbar :: mynavbar"></div>
+	<!-- / NAVBAR -->
+
+
+	<!--  CONTAINER  -->
+			    <div class="container-fluid mb-4">			
+					<div class="my-4 createForm col-md-8 p-4">
+						<h1 class="text-center mb-4">[[${pageTitle}]] <i class="fas fa-tag"></i></h1>
+						
+						<!--  FORM  -->
+							<form 	th:action="@{/categories/save}" method="POST" style="max-width:500px;max-height:600px; ;margin:0 auto;"
+									th:object="${category}"
+									enctype="multipart/form-data">  
+									
+									<input type="hidden" th:field="*{id}" />
+									
+									<div class="form-group row">
+										<label class="col-sm-4 col-form-label" for="name">Category Name : </label>
+										
+										<div class="col-sm-8">
+											<input type="text" th:field="*{name}"  class="form-control" required minlength="2" maxlength="130" />
+										</div> 
+									</div>             
+								
+								
+									<div class="form-group row">
+										<label class="col-sm-4 col-form-label" for="nickName">Category Nick-name : </label>
+										
+										<div class="col-sm-8">
+											<input type="text" th:field = "*{nickName}" class="form-control" required minlength="2" maxlength="60" />
+										</div>
+									</div>
+									
+									
+									<!--  parent category -->
+									<div class="form-group row">
+										<label class="col-sm-4 col-form-label">Parent Category : </label>
+										<div class="col-sm-8">
+											<select class="custom-select custom-select-sm" th:field="*{parent}">
+												<option value="0">[Parent Not selected]</option>
+											</select>
+										</div>
+									</div>
+								
+									
+									
+									<!-- image -->
+									<fieldset class="from-group row">
+											<legend class="col-form-label col-sm-4 float-sm-left pt-0">Image</legend>
+											<div class="col-sm-8">
+												<input type="hidden" th:field="*{image}"/>
+												<input type="file" accept="image/png, image/jpeg" name="image" id="fileImage" />
+												
+												<img id="thumbnail" th:src="@{/images/image-def.png}" alt="Category Photo" class="img-fluid mt-4 myPhoto" />
+											</div>
+									</fieldset>
+									
+										
+									<!--  enabled -->
+									<fieldset class="form-group row my-4">
+										<label class="col-sm-4 col-form-label">Enabled : </label>
+										
+										<div class="col-sml-8" style="margin-top:6px; margin-left:1rem;">
+											<div class="form-check">
+													<input 	class="form-check-input" type="checkbox" 
+															th:field="*{enabled}" value="option1"/>
+											</div>
+										</div>
+									</fieldset>
+									
+									
+									
+									<!-- save/cancel button -->
+									<div class="form-group row text-center" style="margin-top:1.2rem">
+										
+										<!-- save btn-->
+										<div class="offset-5">
+											<input type="submit" class="btn btn-success" value="Save" />
+										</div>
+										
+										<!-- cancel btn-->
+										<div class="ml-3">
+											<input type="button" class="btn btn-dark" value="Cancel" id="cancelBtn" />
+										</div>
+										
+										
+										
+									</div>
+							</form>	
+						<!-- /FORM -->
+					</div>
+
+				</div>
+	<!--  CONTAINER  -->
+	
+	
+	
+	
+	<!-- FOOTER -->
+	 	<div th:replace="partials/_footer :: myfooter"></div>
+	<!-- /FOOTER -->
+	
+	
+	<script>
+		moduleURL= "[[@{/categories}]]";
+	</script>
+	
+	
+
+	<!--  COMMON js  -->
+	
+	<script th:src="@{/js/common_form.js}"></script>
+	
+	
+
+</body>
+</html>

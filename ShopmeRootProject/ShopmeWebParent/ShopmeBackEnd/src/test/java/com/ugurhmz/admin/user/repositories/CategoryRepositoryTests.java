@@ -83,7 +83,7 @@ public class CategoryRepositoryTests {
 		Category smartPhones = new Category("Smart Phones",parent);
 		Category printer = new Category("Printer",parent);
 		
-		
+				// Java 8 , List.of
 		List<Category> electronicLists = Arrays.asList(cameras,smartPhones,printer);
 		electronicLists = Collections.unmodifiableList(electronicLists);
 		
@@ -160,6 +160,8 @@ public class CategoryRepositoryTests {
 	}
 	
 	
+	
+	
 	// print children  (8.5)
 	private void printChildren(Category parent, int subLevel) {
 		int newSubLevel = subLevel + 1;
@@ -175,9 +177,6 @@ public class CategoryRepositoryTests {
 			printChildren(subCategory, newSubLevel);	
 		}	
 	}
-	
-	
-	
 	
 	
 	

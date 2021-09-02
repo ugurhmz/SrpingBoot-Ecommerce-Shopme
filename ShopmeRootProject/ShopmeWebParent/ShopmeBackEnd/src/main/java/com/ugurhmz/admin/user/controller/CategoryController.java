@@ -26,7 +26,24 @@ public class CategoryController {
 		model.addAttribute("listCategories",listCategories);
 		
 		
-		return "users/categories";
+		return "categories/categories";
+	}
+	
+	@GetMapping("/categories/new")
+	public String getCategoriesNewForm(Model model) {
+		
+		model.addAttribute("category", new Category());
+		model.addAttribute("pageTitle","New Category Form");
+		
+		
+		
+		return "categories/category_form";
 	}
 	
 }
+
+
+
+
+
+
