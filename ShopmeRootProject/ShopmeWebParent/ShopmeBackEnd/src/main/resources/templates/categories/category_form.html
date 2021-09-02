@@ -3,7 +3,7 @@
 
 <head th:replace="partials/head :: head_section(${pageTitle})"></head>
 	
-<body>
+<body th:style="'background:url('+ @{/images/bg.jpg} +');background-repeat: no-repeat, repeat; background-size: cover;'">
 	
 	<!--  NAVBAR -->
 		<div th:replace="partials/_navbar :: mynavbar"></div>
@@ -14,6 +14,9 @@
 			    <div class="container-fluid mb-4">			
 					<div class="my-4 createForm col-md-8 p-4">
 						<h1 class="text-center mb-4">[[${pageTitle}]] <i class="fas fa-tag"></i></h1>
+						
+				
+						
 						
 						<!--  FORM  -->
 							<form 	th:action="@{/categories/save}" method="POST" style="max-width:500px;max-height:600px; ;margin:0 auto;"
@@ -61,7 +64,7 @@
 											<legend class="col-form-label col-sm-4 float-sm-left pt-0">Image</legend>
 											<div class="col-sm-8">
 												<input type="hidden" th:field="*{image}"/>
-												<input type="file" accept="image/png, image/jpeg" name="image" id="fileImage" />
+												<input type="file" accept="image/png, image/jpeg" required name="fileImage" id="fileImage" />
 												
 												<img id="thumbnail" th:src="@{/images/image-def.png}" alt="Category Photo" class="img-fluid mt-4 myPhoto" />
 											</div>

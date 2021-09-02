@@ -51,6 +51,33 @@ public class Category {
 	}
 	
 	
+	// copyIdAndName Category
+	public static Category copyIdAndName(Category category) {
+		Category copyCategory = new Category();
+		
+		copyCategory.setId(category.getId());
+		copyCategory.setName(category.getName());
+		
+		
+		return copyCategory;
+	}
+	
+
+	// copyIdAndName Category Other
+	public static Category copyIdAndName(Integer id, String name) {
+		Category copyCategory = new Category();
+		
+		copyCategory.setId(id);
+		copyCategory.setName(name);
+		
+		
+		return copyCategory;
+	}
+	
+	
+	
+	
+	
 	// ONLY ID CONSTRUCTOR
 	public Category(Integer id) {
 		this.id = id;
