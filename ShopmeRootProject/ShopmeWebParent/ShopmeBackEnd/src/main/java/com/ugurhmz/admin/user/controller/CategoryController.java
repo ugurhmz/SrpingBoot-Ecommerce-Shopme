@@ -31,14 +31,24 @@ public class CategoryController {
 	
 	@GetMapping("/categories/new")
 	public String getCategoriesNewForm(Model model) {
+			List<Category>	 listCategories = categoryService.listCategoriesUsedInForm();
 		
 		model.addAttribute("category", new Category());
+		model.addAttribute("listCategories",listCategories);
 		model.addAttribute("pageTitle","New Category Form");
 		
 		
 		
 		return "categories/category_form";
 	}
+	
+	
+	
+	
+	
+	
+	
+	
 	
 }
 
