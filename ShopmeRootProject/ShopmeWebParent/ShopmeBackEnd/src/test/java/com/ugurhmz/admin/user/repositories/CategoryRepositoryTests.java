@@ -200,7 +200,7 @@ public class CategoryRepositoryTests {
 	// LIST ROOT CATEGORIES TEST
 	@Test
 	public	 void listRootCategories() {
-		List<Category> rootCategory = categoryRepository.listRootCategories();
+		List<Category> rootCategory = categoryRepository.findRootCategories();
 		rootCategory.forEach( cat -> System.out.println(cat.getName()));
 	}
 		

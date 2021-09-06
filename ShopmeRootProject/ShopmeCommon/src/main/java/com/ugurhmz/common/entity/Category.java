@@ -12,6 +12,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 
 @Entity
 @Table(name="categories")
@@ -70,9 +71,35 @@ public class Category {
 		copyCategory.setId(id);
 		copyCategory.setName(name);
 		
+		return copyCategory;
+	}
+	
+	
+	
+	
+	// copyFull
+	public static Category copyFull(Category category) {
+		Category copyCategory = new Category();
+		copyCategory.setId(category.getId());
+		copyCategory.setName(category.getName());
+		copyCategory.setImage(category.getImage());
+		copyCategory.setNickName(category.getNickName());
+		copyCategory.setEnabled(category.isEnabled());
 		
 		return copyCategory;
 	}
+	
+	
+	
+	
+	// OVERLOADING copyFull
+	public static Category copyFull(Category category, String name) {
+		Category copyCategory = Category.copyFull(category);
+		copyCategory.setName(name);
+		
+		return copyCategory;
+	}
+	
 	
 	
 	
@@ -160,6 +187,12 @@ public class Category {
 		this.children = children;
 	}
 	
+	
+	//Category images
+	@Transient
+	public String getImagePath() {
+		return "/category-images/" + this.id + "/"+ this.image;
+	}
 	
 }
 

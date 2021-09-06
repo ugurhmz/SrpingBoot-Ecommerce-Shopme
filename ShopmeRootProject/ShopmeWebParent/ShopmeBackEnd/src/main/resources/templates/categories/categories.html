@@ -90,11 +90,11 @@
 					
 						<th class="hideable-column">[[${category.id}]]</th>
 						  <td>
-					      	<span th:if="${category.image  == null}"><i class="fas fa-portrait fa-3x icon-gray"></i></span>
-					      	<img th:if="${category.image != null}"  style="width:100px;height:110px;" />
+					      	
+					      	<img th:if="${category.image != null}"  th:src="@{${category.imagePath}}" style="width:100px;height:110px;" />
 						</td>
 						
-						<td class="hideable-column" >[[${category.name}]]</td>
+						<td class="hideable-column" style="text-align: start;" >[[${category.name}]]</td>
 						<td>[[${category.nickName}]]</td>
 						
 						<td style="font-size:1.4rem;">
