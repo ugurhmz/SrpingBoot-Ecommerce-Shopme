@@ -185,15 +185,24 @@ public class CategoryRepositoryTests {
 	
 	
 	// Children category added			(9)  for test
-		@Test
-		public void testNewSubCategory() {
-			Category parent = new Category(3);
-			
-			Category gamingLaptops = new Category("Gaming Laptops",parent);
-			
-			Category savedCategory = categoryRepository.save(gamingLaptops);
-			assertThat(savedCategory.getId()).isGreaterThan(0);
-		}
+	@Test
+	public void testNewSubCategory() {
+		Category parent = new Category(3);
+		
+		Category gamingLaptops = new Category("Gaming Laptops",parent);
+		
+		Category savedCategory = categoryRepository.save(gamingLaptops);
+		assertThat(savedCategory.getId()).isGreaterThan(0);
+	}
+		
+		
+	
+	// LIST ROOT CATEGORIES TEST
+	@Test
+	public	 void listRootCategories() {
+		List<Category> rootCategory = categoryRepository.listRootCategories();
+		rootCategory.forEach( cat -> System.out.println(cat.getName()));
+	}
 		
 		
 	
