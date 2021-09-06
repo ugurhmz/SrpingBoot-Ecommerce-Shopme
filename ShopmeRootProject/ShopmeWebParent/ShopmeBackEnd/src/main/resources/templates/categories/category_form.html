@@ -3,7 +3,7 @@
 
 <head th:replace="partials/head :: head_section(${pageTitle})"></head>
 	
-<body th:style="'background:url('+ @{/images/bg.jpg} +');background-repeat: no-repeat, repeat; background-size: cover;'">
+<body th:style="'background:url('+ @{/images/bg.jpg} +');background-repeat: no-repeat, repeat; background-size: cover; '">
 	
 	<!--  NAVBAR -->
 		<div th:replace="partials/_navbar :: mynavbar"></div>
@@ -11,7 +11,7 @@
 
 
 	<!--  CONTAINER  -->
-			    <div class="container-fluid mb-4">			
+			    <div class="container-fluid mb-4" style="height: 77.4vh;">			
 					<div class="my-4 createForm col-md-8 p-4">
 						<h1 class="text-center mb-4">[[${pageTitle}]] <i class="fas fa-tag"></i></h1>
 						
@@ -48,7 +48,7 @@
 										<label class="col-sm-4 col-form-label">Parent Category : </label>
 										<div class="col-sm-8">
 											<select class="custom-select custom-select-sm" th:field="*{parent}">
-												<option value="0">[Parent Not selected]</option>
+												<option value="0">[PARENT]</option>
 												
 												<th:block th:each="cat : ${listCategories}">
 													<option th:value="${cat.id}">[[${cat.name}]]</option>
@@ -63,10 +63,15 @@
 									<fieldset class="from-group row">
 											<legend class="col-form-label col-sm-4 float-sm-left pt-0">Image</legend>
 											<div class="col-sm-8">
-												<input type="hidden" th:field="*{image}"/>
-												<input type="file" accept="image/png, image/jpeg" required name="fileImage" id="fileImage" />
-												
-												<img id="thumbnail" th:src="@{/images/image-def.png}" alt="Category Photo" class="img-fluid mt-4 myPhoto" />
+												<input  type="hidden" th:field="*{image}"/>
+												<input  type="file" 
+														accept="image/png, image/jpeg" 
+														th:required="${category.imagePath == null}" name="fileImage" id="fileImage" />
+												<!-- before image updating 
+													<img id="thumbnail" th:src="@{/images/image-def.png}" alt="Category Photo" class="img-fluid mt-4 myPhoto" />
+												-->
+												<img id="thumbnail" th:src="@{${category.imagePath}}" alt="Category Photo" class="img-fluid mt-4 myPhoto" />
+											
 											</div>
 									</fieldset>
 									

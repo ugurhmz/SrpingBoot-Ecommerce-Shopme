@@ -2,6 +2,7 @@ package com.ugurhmz.admin.user.services;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.Set;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -141,6 +142,16 @@ public class CategoryService {
 	}
 	
 	
+	
+	// UPDATE CATEGORY
+	public Category get(Integer id) throws CategoryNotFoundException {
+		
+		try {
+			return categoryRepository.findById(id).get();
+		} catch(NoSuchElementException ex) {
+			throw new CategoryNotFoundException("Colud not find category, ID : "+id);
+		}
+	}
 	
 	
 	

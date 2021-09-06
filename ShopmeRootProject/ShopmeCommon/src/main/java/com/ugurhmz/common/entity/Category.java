@@ -188,11 +188,19 @@ public class Category {
 	}
 	
 	
-	//Category images
+	//Category images && Category get image path
 	@Transient
 	public String getImagePath() {
+		if(this.id == null) {
+			return "/images/image-def.png";
+		}
+		
 		return "/category-images/" + this.id + "/"+ this.image;
 	}
+	
+	
+	
+	
 	
 }
 
