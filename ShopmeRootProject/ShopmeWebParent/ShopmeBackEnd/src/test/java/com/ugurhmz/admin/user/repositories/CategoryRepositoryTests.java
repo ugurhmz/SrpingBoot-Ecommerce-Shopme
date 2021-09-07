@@ -207,6 +207,29 @@ public class CategoryRepositoryTests {
 		
 	
 	
+	// Category Unique TEST
+	@Test
+	public void testfindByName() {
+		String name ="Computers";
+		Category category = categoryRepository.findByName(name);
+		
+		assertThat(category).isNotNull();
+		assertThat(category.getName()).isEqualTo(name);
+		
+	}
+	
+	
+	// Category nickName TEST
+	@Test
+	public void testfindByNickname() {
+		String nickName = "lenses";
+		Category category = categoryRepository.findByNickName(nickName);
+		
+		assertThat(category).isNotNull();
+		assertThat(category.getNickName()).isEqualTo(nickName);
+	}
+	
+	
 }
 
 
