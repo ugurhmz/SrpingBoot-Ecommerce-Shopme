@@ -21,6 +21,7 @@
 						<!--  FORM  -->
 							<form 	th:action="@{/categories/save}" method="POST" style="max-width:500px;max-height:600px; ;margin:0 auto;"
 									th:object="${category}"
+									onsubmit="return checkUniqueCategory(this);"
 									enctype="multipart/form-data">  
 									
 									<input type="hidden" th:field="*{id}" />
@@ -123,6 +124,39 @@
 	
 	<script>
 		moduleURL= "[[@{/categories}]]";
+		
+		function checkUniqueCategory(form){
+			catId = $("#id").val();
+			catName = $("#name").val();
+			catnickName = $("#nickName").val();
+			
+			csrfValue = $("input[name='_csrf']").val();
+			
+		
+			
+			url = "[[@{/categories/check_unique}]]";
+			
+			params = {
+					id : catId,
+					name : catName,
+					nickName : catnickName,
+					_csrf : csrfValue
+			}
+			
+			
+			$.post(url, params, function(response)  {
+				
+				alert(response);
+				
+			}).fail(function () {
+				alert("failed!!!");
+			});
+			
+			
+			return false;
+		}
+		
+		
 	</script>
 	
 	
