@@ -102,6 +102,14 @@ public class Category {
 	
 	
 	
+	// Constructor for Uniques
+	public Category(Integer id, String name, String nickName) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.nickName = nickName;
+	}
+	
 	
 	
 	

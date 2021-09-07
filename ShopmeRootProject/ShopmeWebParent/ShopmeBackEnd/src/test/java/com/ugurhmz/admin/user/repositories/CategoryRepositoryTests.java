@@ -223,7 +223,9 @@ public class CategoryRepositoryTests {
 	@Test
 	public void testfindByNickname() {
 		String nickName = "lenses";
-		Category category = categoryRepository.findByNickName(nickName);
+		Category category = categoryRepository.findByNickName(nickName);	//Bu O entity döndürür, Adres.
+		
+			System.out.println(category.getName() + " "+category.getNickName());
 		
 		assertThat(category).isNotNull();
 		assertThat(category.getNickName()).isEqualTo(nickName);

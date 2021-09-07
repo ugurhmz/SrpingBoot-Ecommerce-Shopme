@@ -114,6 +114,10 @@ public class CategoryService {
 	}
 	
 	
+	
+	
+	
+	
 	// listSubCategoriesUsedInForm - (Recursive for Category name)
 	private void listSubCategoriesUsedInForm(List<Category> categoriesUsedInForm, Category parent, int subLevel) {
 		
@@ -136,10 +140,15 @@ public class CategoryService {
 	
 	
 	
+	
+	
+	
 	// SAVE CATEGORY
 	public Category saveNewCategory(Category category) {
 		return categoryRepository.save(category);
 	}
+	
+	
 	
 	
 	
@@ -152,6 +161,48 @@ public class CategoryService {
 			throw new CategoryNotFoundException("Colud not find category, ID : "+id);
 		}
 	}
+	
+	
+	
+	
+	
+	
+	// CATEGORY UNIQUE
+	public String checkUniqueCategory(Integer id, String name, String nickName) {
+		boolean isCreatingNew = (id == null || id==0);
+		
+		Category categoryName =  categoryRepository.findByName(name);
+		
+		if(isCreatingNew) {
+			if(categoryName != null) {
+				return "DuplicateName";
+				
+			} else {
+				Category categoryByNickName = categoryRepository.findByNickName(nickName);
+				if(categoryByNickName != null) {
+					return "DuplicateNickName";
+				}
+			}
+			
+		} else {
+			
+			if(categoryName != null && categoryName.getId() != id) {
+				return "DuplicateName";
+				
+			}
+			else {
+				Category categoryByNickName = categoryRepository.findByNickName(nickName);
+				if(categoryByNickName != null && categoryByNickName.getId() != id) {
+					return "DuplicateNickName";
+				}
+				
+			}		
+		}
+		
+		
+		return "OK";
+	}
+	
 	
 	
 	
