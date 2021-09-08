@@ -133,31 +133,7 @@
 						
 				
 				<!-- Modal -->
-					<div class="modal fade text-center" id="modalDialog" tabindex="-1">
-						  <div class="modal-dialog">
-						    <div class="modal-content">
-						    
-						      <div class="modal-header">
-						        <h5 class="modal-title text-danger" id="modalTitle"></h5>
-						        
-						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						          <span aria-hidden="true">&times;</span>
-						        </button>
-						        
-						      </div>
-						      
-						      <div class="modal-body">
-						        <p id="modalBody"></p>
-						      </div>
-						      
-						      <div class="modal-footer">
-						        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-						        
-						      </div>
-						      
-						    </div>
-						  </div>
-					</div>
+					<div th:replace="partials/modals :: modal_dialog"></div>
 				<!-- /Modal -->	
 					
 					</div>
@@ -197,10 +173,10 @@
 				form.submit();
 				
 			} else if( response == "This email is already USE !!"){
-				showModalMessage(userEmail+" is already USE !!")
+				showModalMessage("Warning",userEmail+" is already USE !!")
 				
 			} else {
-				
+				showModalMessage("Error","Unknown response from server");
 			}
 			
 		}).fail( function () {
@@ -211,15 +187,9 @@
 	}
 	
 		
-		
-		
-		
-	// SHOW MODAL MESSAGE FOR ->  EMAIL IS UNIQUE
-	function showModalMessage(title,message){
-		$("#modalTitle").text(title);
-		$("#modalBody").text(message);
-		$("#modalDialog").modal();
-	}
+	
+	
+	
 		
 		
 	</script>

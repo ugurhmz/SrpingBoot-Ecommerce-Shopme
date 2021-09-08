@@ -52,3 +52,20 @@ $(document).ready(function () {
 		reader.readAsDataURL(file);
 	}
 	
+	
+		
+		
+		
+	// SHOW MODAL MESSAGE FOR ->  EMAIL IS UNIQUE
+	function showModalMessage(title,message){
+		$("#modalTitle").text(title);
+		$("#modalBody").text(message);
+		$("#modalDialog").modal();
+	}
+	
+	
+	
+	
+	
+	
+	

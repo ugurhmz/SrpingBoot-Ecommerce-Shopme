@@ -114,6 +114,10 @@
 				</div>
 	<!--  CONTAINER  -->
 	
+	<!--  MODAL -->
+		<div th:replace="partials/modals :: modal_dialog"></div>
+	
+	<!-- /MODAL -->
 	
 	
 	
@@ -144,14 +148,25 @@
 			}
 			
 			
-			$.post(url, params, function(response)  {
+			$.post(url, params, function (response) {
 				
-				alert(response);
+				if( response == "OK"){
+					form.submit();
+					
+				} else if( response == "DuplicateName"){
+					showModalMessage("Warning",catName+" There is another category  having same name !");
+					
+				} else if( response == "DuplicateNickName"){
+					showModalMessage("Warning",catnickName + " There is another category  having same nick name!");
+				}
 				
-			}).fail(function () {
-				alert("failed!!!");
+				else {
+					showModalMessage("Error","Unknown response from server");
+				}
+				
+			}).fail( function () {
+				showModalMessage("Error","Could not connect to the server");
 			});
-			
 			
 			return false;
 		}
