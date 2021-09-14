@@ -74,7 +74,11 @@
 						
 						<th scope="col">Category Image</th>
 				
-						<th scope="col">Category Name</th>
+						<th scope="col">
+							<a  class="text-white" th:href="@{'/categories?sortDir=' + ${reverseSortDir}}">Category Name</a>
+							<span th:class="${reverseSortDir == 'desc' ? 'fas fa-sort-up' : 'fas fa-sort-down'}"></span>
+						
+						</th>
 						
 						<th scope="col">Category Nick-Name</th>
 						
