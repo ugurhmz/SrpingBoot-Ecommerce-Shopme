@@ -19,6 +19,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import com.ugurhmz.admin.FileUploadUtil;
 import com.ugurhmz.admin.user.services.CategoryNotFoundException;
 import com.ugurhmz.admin.user.services.CategoryService;
+import com.ugurhmz.admin.user.services.UserNotFoundException;
 import com.ugurhmz.common.entity.Category;
 
 
@@ -167,6 +168,32 @@ public class CategoryController {
 		return "redirect:/categories";
 	}
 	
+	
+	
+	// DELETE CATEGORY 
+	@GetMapping("/categories/delete/{id}")
+	public String deleteCategory(
+			@PathVariable("id") Integer id,
+			RedirectAttributes redirectAttribute) 
+	{
+		
+		try {
+			
+			categoryService.deleteCategory(id);
+			String categoryDir = "../category-images/" + id;
+			System.out.println(categoryDir);
+			FileUploadUtil.removeDir(categoryDir);
+			
+			
+			redirectAttribute.addFlashAttribute("message","The Category ID : "+id+" has been deleted successfully.");
+			
+		} catch (CategoryNotFoundException e) {
+			redirectAttribute.addFlashAttribute("message",e.getMessage());
+		}
+		
+		
+		return "redirect:/categories";
+	}
 	
 	
 	

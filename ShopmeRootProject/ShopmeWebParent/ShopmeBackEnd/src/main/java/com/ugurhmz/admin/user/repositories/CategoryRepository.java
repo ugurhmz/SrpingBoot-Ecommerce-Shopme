@@ -33,6 +33,10 @@ public interface CategoryRepository extends PagingAndSortingRepository<Category,
 	public void updateEnableStatus(Integer id, boolean enabled);
 	
 	
+	// Countby (Get by ID)
+	public Long countById(Integer id);
+	
+	
 	
 	
 	//Category name , unique

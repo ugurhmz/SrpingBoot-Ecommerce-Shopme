@@ -44,7 +44,15 @@ public class Category {
 
 	
 	
+	
+	@Transient
+	private boolean hasChildren;
 
+	
+	
+	
+	
+	
 	
 	// DEF CONSTRUCTOR   -> For nested exception is org.hibernate.InstantiationException
 	public Category(){
@@ -85,6 +93,7 @@ public class Category {
 		copyCategory.setImage(category.getImage());
 		copyCategory.setNickName(category.getNickName());
 		copyCategory.setEnabled(category.isEnabled());
+		copyCategory.setHasChildren(category.getChildren().size() > 0);
 		
 		return copyCategory;
 	}
@@ -205,6 +214,19 @@ public class Category {
 		
 		return "/category-images/" + this.id + "/"+ this.image;
 	}
+
+
+	
+	public boolean isHasChildren() {
+		return hasChildren;
+	}
+
+
+	public void setHasChildren(boolean hasChildren) {
+		this.hasChildren = hasChildren;
+	}
+	
+	
 	
 	
 	

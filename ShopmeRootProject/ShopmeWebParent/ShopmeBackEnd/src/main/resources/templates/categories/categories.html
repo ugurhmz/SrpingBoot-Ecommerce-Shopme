@@ -116,16 +116,17 @@
 						
 						<td class="col-md-2">
 						
+						<th:block th:if="${category.hasChildren == false}">
 							<!-- delete btn -->
 								<a 	class="btn btn-outline-danger fas fa-trash-alt linkDelete"
-									th:href="@{'/category/delete/' + ${category.id}}"
+									th:href="@{'/categories/delete/' + ${category.id}}"
 									title="Delete This User"
-									th:userId="${category.id}"
-									>
+									th:categoryId="${category.id}"
+									th:categoryName = "${category.name}">
 									
 								</a>
 							<!-- /delete btn -->
-							
+						</th:block>	
 							
 							<!--  update btn -->
 								<a 	class="btn btn-outline-warning fas fa-edit ml-1 "
@@ -152,10 +153,35 @@
 
 <!--  /CONTAINER -->
 
-	<!-- MODALS -->
-		<div th:replace="partials/modals :: modal_dialog"></div>
-	<!-- /MODALS -->
+	<!-- Modal -->
+					<div class="modal fade text-center" id="confirmDeleteModal" tabindex="-1">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						    
+						      <div class="modal-header">
+						        <h5 class="modal-title">Delete Confirmation</h5>
+						        
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						        
+						      </div>
+						      
+						      <div class="modal-body">
+						        <p id="modalBody"></p>
+						      </div>
+						      
+						      <div class="modal-footer">
+						        <a class="btn btn-danger" href="" id="yesDeleteBtn">Yes</a>
+						        <button type="button" class="btn btn-dark" data-dismiss="modal">No</button>
+						      </div> 
+						      
+						    </div>
+						  </div>
+					</div>
+	<!-- /Modal -->	
 	
+		
 	
 	<!-- FOOTER -->
 	 	<div th:replace="partials/_footer :: myfooter"></div>
@@ -163,6 +189,30 @@
 	
 	
 	<script type="text/javascript">
+	
+	// Delete button category  question?
+		$(document).ready(function () {
+			$(".linkDelete").on("click",function (e) {
+				e.preventDefault();
+			
+				link = $(this);
+				
+				categoryId= link.attr("categoryId");
+				categoryName = link.attr("categoryName");
+				
+				
+				$("#yesDeleteBtn").attr("href",link.attr("href"));
+				$("#modalBody").text("Are you sure want to delete this "+categoryName+" ID : "+ categoryId+" ?");
+				$("#confirmDeleteModal").modal();
+				
+			});
+			
+			
+		});
+		
+		
+	
+	
 	
 	
 		

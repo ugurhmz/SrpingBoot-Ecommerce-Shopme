@@ -305,6 +305,16 @@ public class CategoryService {
 	
 	
 	
+	// DELETE CATEGORY
+	public void deleteCategory(Integer id) throws CategoryNotFoundException {
+		Long  countById  = categoryRepository.countById(id);
+		
+		if(countById == null || countById == 0) {
+			throw new CategoryNotFoundException("Could not find any Category ID : "+id);
+		}
+		
+		categoryRepository.deleteById(id);
+	}
 	
 	
 	
