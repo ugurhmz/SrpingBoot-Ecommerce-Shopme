@@ -13,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase.Replace;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+import org.springframework.data.domain.Sort;
 import org.springframework.test.annotation.Rollback;
 
 import com.ugurhmz.common.entity.Category;
@@ -200,7 +201,7 @@ public class CategoryRepositoryTests {
 	// LIST ROOT CATEGORIES TEST
 	@Test
 	public	 void listRootCategories() {
-		List<Category> rootCategory = categoryRepository.findRootCategories();
+		List<Category> rootCategory = categoryRepository.findRootCategories(Sort.by("name").ascending());							
 		rootCategory.forEach( cat -> System.out.println(cat.getName()));
 	}
 		
