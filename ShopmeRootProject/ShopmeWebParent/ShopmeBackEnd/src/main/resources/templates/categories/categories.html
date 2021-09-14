@@ -103,11 +103,11 @@
 						
 						<td style="font-size:1.4rem;">
 							<a  th:if="${category.enabled == true}" class="fas fa-check-circle icon-green "
-								th:href="@{'/categories/' + ${category.id} + '/enabled/false'}" title="Disable This User">
+								th:href="@{'/categories/' + ${category.id} + '/status/false'}" title="Disable This User">
 							</a>
 							
 							<a  th:if="${category.enabled == false}" class="fas fa-circle icon-silver"
-								th:href="@{'/categories/' + ${category.id} + '/enabled/true'}" title="Enable this User">
+								th:href="@{'/categories/' + ${category.id} + '/status/true'}" title="Enable this User">
 							
 							
 							</a>
